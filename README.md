@@ -40,4 +40,15 @@ Vite `base` is `/closet-overlay-widget/` for GitHub Pages.
 
 ## Publish
 
-Built site is served from the `gh-pages` branch (contents of `dist/`).
+Built site is on the `gh-pages` branch and mirrored in `docs/` on `main`.
+
+Vite `base` is `/closet-overlay-widget/`.
+
+**One owner step required:** the cloud agent token cannot enable Pages (`pages:write` 403). In
+[Settings → Pages](https://github.com/MSheehy90/closet-overlay-widget/settings/pages) choose either:
+
+- Deploy from a branch → `gh-pages` / `(root)`, or
+- Deploy from a branch → `main` / `/docs`, or
+- Source → GitHub Actions, then re-run **Deploy GitHub Pages**
+
+Live URL after enable: https://msheehy90.github.io/closet-overlay-widget/
