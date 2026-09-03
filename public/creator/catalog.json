@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source": "living-food-chain-sim",
+  "status": "empty",
+  "message": "Creator pack not copied yet",
+  "zOrder": [
+    "body",
+    "underwear",
+    "shirt",
+    "pants",
+    "apron",
+    "coat",
+    "hair"
+  ],
+  "bodies": {
+    "realism": [],
+    "chibi": []
+  },
+  "underwear": [],
+  "clothes": [],
+  "hair": [],
+  "counts": {
+    "pngs": 0,
+    "clothes": 0,
+    "hair": 0,
+    "realismBodies": 0,
+    "chibiBodies": 0,
+    "underwear": 0
+  }
+}

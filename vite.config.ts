@@ -6,7 +6,13 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'fonts/*'],
+      includeAssets: [
+        'icons/icon-192.png',
+        'icons/icon-512.png',
+        'icons/apple-touch-icon.png',
+        'fonts/*',
+        'creator/catalog.json',
+      ],
       manifest: {
         name: 'Closet Overlay',
         short_name: 'Closet',
@@ -39,7 +45,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,webmanifest}'],
+        // Bump cache when creator pack lands
+        cacheId: 'closet-overlay-v2-creator',
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,webmanifest,json}'],
       },
     }),
   ],

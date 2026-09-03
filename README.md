@@ -38,17 +38,17 @@ npm run build
 
 Vite `base` is `/closet-overlay-widget/` for GitHub Pages.
 
-## Publish
+## Creator closet (source of truth)
 
-Built site is on the `gh-pages` branch and mirrored in `docs/` on `main`.
+Clothes / bodies / hair come from **living-food-chain-sim**  
+`assets/creator/hires-pack/` — never invented, no Kenney/LPC/64px packs.
 
-Vite `base` is `/closet-overlay-widget/`.
+```bash
+# requires read access to living-food-chain-sim
+export LIVING_FOOD_CHAIN_SIM_READ_TOKEN=…   # or GH_PAT / GH_TOKEN
+npm run copy:creator        # write PNGs under public/creator/
+npm run catalog             # build public/creator/catalog.json
+npm run build
+```
 
-**One owner step required:** the cloud agent token cannot enable Pages (`pages:write` 403). In
-[Settings → Pages](https://github.com/MSheehy90/closet-overlay-widget/settings/pages) choose either:
-
-- Deploy from a branch → `gh-pages` / `(root)`, or
-- Deploy from a branch → `main` / `/docs`, or
-- Source → GitHub Actions, then re-run **Deploy GitHub Pages**
-
-Live URL after enable: https://msheehy90.github.io/closet-overlay-widget/
+Copy via Contents API (base64 GET/PUT): `npm run copy:creator:put`
