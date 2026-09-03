@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "node scripts/build-creator-catalog.mjs && tsc && vite build",
     "preview": "vite preview",
+    "catalog": "node scripts/build-creator-catalog.mjs",
+    "copy:creator": "node scripts/copy-creator-from-sim.mjs --local-only",
+    "copy:creator:put": "node scripts/copy-creator-from-sim.mjs",
     "test:cleanup": "tsx scripts/generate-fixtures.ts && tsx scripts/test-cleanup.ts"
   },
   "devDependencies": {

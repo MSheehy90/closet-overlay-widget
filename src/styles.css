@@ -300,6 +300,45 @@ input[type="color"] {
 }
 input[type="file"] { display: none; }
 
+.chip-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  max-height: 9.5rem;
+  overflow: auto;
+  padding: 0.15rem 0;
+}
+.lib-chip {
+  font-size: 0.75rem;
+  min-height: 2.1rem;
+  padding: 0.3rem 0.7rem;
+}
+.group-rail {
+  flex-wrap: wrap;
+}
+.sel-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.65rem;
+}
+.sel-pill {
+  font-size: 0.72rem;
+  color: var(--dim);
+  background: var(--chip);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+}
+.sel-pill strong { color: var(--ink); font-weight: 800; }
+.slot-list.compact .slot {
+  grid-template-columns: 1fr;
+}
+code {
+  font-size: 0.78em;
+  color: var(--accent-strong);
+}
+
 @media (min-width: 480px) {
   #app { box-shadow: 0 0 0 1px var(--line); }
 }
