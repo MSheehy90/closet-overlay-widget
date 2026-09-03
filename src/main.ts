@@ -574,7 +574,11 @@ function bindOverlay(): void {
         // Keep style selections where possible; refresh body for view
         const bodies = bodiesFor(state.catalog!, state.overlay.style, v);
         if (!bodies.some((b) => b.id === state.selection.bodyId)) {
-          state.selection.bodyId = bodies[0]?.id ?? null;
+          const current = findBody(state.catalog!, state.selection.bodyId);
+          const sameSex = current
+            ? bodies.find((b) => b.sex === current.sex)
+            : null;
+          state.selection.bodyId = sameSex?.id ?? bodies[0]?.id ?? null;
         }
         void applySelectionToSlots().then(render);
       } else render();
@@ -624,11 +628,21 @@ function bindOverlay(): void {
   document.getElementById('btn-export-layers')?.addEventListener('click', () => void exportLayers());
 }
 
+let applySelectionGen = 0;
+
 async function applySelectionToSlots(): Promise<void> {
   if (!state.catalog) return;
+  const gen = ++applySelectionGen;
   const style = state.overlay.style;
   const view = state.overlay.view;
+  const prevNudges = new Map(
+    state.overlay.slots.map((s) => [s.id, { ...s.nudge }] as const),
+  );
   const slots = createEmptySlots();
+  for (const slot of slots) {
+    const prev = prevNudges.get(slot.id);
+    if (prev) slot.nudge = prev;
+  }
 
   const setSlot = async (slotId: SlotId, path: string | null, fileLabel: string) => {
     const slot = slots.find((s) => s.id === slotId)!;
@@ -689,6 +703,7 @@ async function applySelectionToSlots(): Promise<void> {
     }
   }
 
+  if (gen !== applySelectionGen) return;
   state.overlay.slots = slots;
 }
 

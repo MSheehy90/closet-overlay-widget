@@ -20,7 +20,7 @@ const ROOT = join(__dirname, '..');
 const SRC_REPO = process.env.SRC_REPO || 'MSheehy90/living-food-chain-sim';
 const DEST_REPO = process.env.DEST_REPO || 'MSheehy90/closet-overlay-widget';
 const SRC_REF = process.env.SRC_REF || 'main';
-const DEST_BRANCH = process.env.DEST_BRANCH || 'cursor/preload-creator-closet-52fe';
+const DEST_BRANCH = process.env.DEST_BRANCH || 'main';
 const DRY = process.argv.includes('--dry-run');
 const LOCAL_ONLY = process.argv.includes('--local-only') || process.argv.includes('--local');
 

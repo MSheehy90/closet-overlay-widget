@@ -158,14 +158,23 @@ function main() {
     }
 
     if (r.includes('/underwear/')) {
-      underwear.push({
-        id: `underwear-${name.replace(/\.png$/i, '')}`,
-        view: view || 'front',
-        path: r,
-        label: name.replace(/\.png$/i, ''),
-        slot: 'underwear',
-        arm,
-      });
+      const style = name.replace(/\.png$/i, '').replace(/[-_](front|side|back|arm)/gi, '');
+      const id = `underwear/${style || 'underwear'}`;
+      let item = underwear.find((u) => u.id === id);
+      if (!item) {
+        item = {
+          id,
+          slot: 'underwear',
+          group: 'Underwear',
+          label: (style || 'underwear').replace(/[-_]/g, ' '),
+          views: {},
+          arms: {},
+        };
+        underwear.push(item);
+      }
+      if (arm && view) item.arms[view] = r;
+      else if (view) item.views[view] = r;
+      else item.views.front = item.views.front || r;
       continue;
     }
 
