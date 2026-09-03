@@ -1,0 +1,1366 @@
+{
+  "id": "creator-hires-pack",
+  "version": "hires-creator-hair-bottoms-v24",
+  "origin": "top-left of body canvas",
+  "notes": "Two bases: Realism = mannequin F/S/B + closet stack (bottoms under tops+apron+coats; height-lock; rim defringe) + hair-collection wrap-frame. Chibi = Living Sim chibi-living/body-front.png front-only (tank+briefs painted on; bun/wavy/short only; no side/back invent; no Realism closet). Native res, never Kenney 64\u00d7.",
+  "fixture": false,
+  "defaultBodyBase": "realism",
+  "bodyBases": [
+    "realism",
+    "chibi"
+  ],
+  "defaultBody": "female",
+  "defaultOutfit": "nude",
+  "bodies": [
+    "female",
+    "male"
+  ],
+  "outfits": [
+    "nude",
+    "cargo",
+    "coat",
+    "shirt",
+    "apron",
+    "fur-coat",
+    "service-vest",
+    "service-blazer",
+    "crew-vest",
+    "crew-coat",
+    "chef-waist-apron",
+    "chef-long-apron",
+    "tail",
+    "third-class",
+    "second-class",
+    "first-class",
+    "bottoms-a-flared-maxi-skirt",
+    "bottoms-a-high-waist-tapered-pants",
+    "bottoms-a-pencil-skirt",
+    "bottoms-a-pleated-midi-skirt",
+    "bottoms-a-slim-trousers",
+    "bottoms-a-straight-casual-pants",
+    "bottoms-a-wide-leg-trousers",
+    "bottoms-a-wrap-skirt",
+    "bottoms-b-asymmetrical-skirt",
+    "bottoms-b-cargo-skirt",
+    "bottoms-b-jogger-pants",
+    "bottoms-b-layered-peasant-skirt",
+    "bottoms-b-loose-work-trousers",
+    "bottoms-b-patched-rugged-pants",
+    "bottoms-b-relaxed-cargo-pants",
+    "bottoms-b-short-aline-skirt",
+    "tail-female-skirt",
+    "tail-female-pants",
+    "tail-male-pants-a",
+    "tail-male-pants-b",
+    "third-class-female-skirt",
+    "third-class-female-pants",
+    "third-class-male-pants-a",
+    "third-class-male-pants-b",
+    "second-class-female-skirt",
+    "second-class-female-pants",
+    "second-class-male-pants-a",
+    "second-class-male-pants-b",
+    "first-class-female-skirt",
+    "first-class-female-pants",
+    "first-class-male-pants-a",
+    "first-class-male-pants-b"
+  ],
+  "outfitLabels": {
+    "nude": "Nude",
+    "cargo": "Cargo",
+    "coat": "Wool coat",
+    "shirt": "Button-down",
+    "apron": "Bib apron",
+    "fur-coat": "Fur coat",
+    "service-vest": "Service vest",
+    "service-blazer": "Service blazer",
+    "crew-vest": "Crew vest",
+    "crew-coat": "Crew coat",
+    "chef-waist-apron": "Chef waist apron",
+    "chef-long-apron": "Chef long apron",
+    "tail": "Tail",
+    "third-class": "Third Class",
+    "second-class": "Second Class",
+    "first-class": "First Class",
+    "bottoms-a-flared-maxi-skirt": "Flared Maxi Skirt",
+    "bottoms-a-high-waist-tapered-pants": "High Waist Tapered Pants",
+    "bottoms-a-pencil-skirt": "Pencil Skirt",
+    "bottoms-a-pleated-midi-skirt": "Pleated Midi Skirt",
+    "bottoms-a-slim-trousers": "Slim Trousers",
+    "bottoms-a-straight-casual-pants": "Straight Casual Pants",
+    "bottoms-a-wide-leg-trousers": "Wide Leg Trousers",
+    "bottoms-a-wrap-skirt": "Wrap Skirt",
+    "bottoms-b-asymmetrical-skirt": "Asymmetrical Skirt",
+    "bottoms-b-cargo-skirt": "Cargo Skirt",
+    "bottoms-b-jogger-pants": "Jogger Pants",
+    "bottoms-b-layered-peasant-skirt": "Layered Peasant Skirt",
+    "bottoms-b-loose-work-trousers": "Loose Work Trousers",
+    "bottoms-b-patched-rugged-pants": "Patched Rugged Pants",
+    "bottoms-b-relaxed-cargo-pants": "Relaxed Cargo Pants",
+    "bottoms-b-short-aline-skirt": "Short Aline Skirt",
+    "tail-female-skirt": "Tail Female Skirt",
+    "tail-female-pants": "Tail Female Pants",
+    "tail-male-pants-a": "Tail Male Pants A",
+    "tail-male-pants-b": "Tail Male Pants B",
+    "third-class-female-skirt": "Third Female Skirt",
+    "third-class-female-pants": "Third Female Pants",
+    "third-class-male-pants-a": "Third Male Pants A",
+    "third-class-male-pants-b": "Third Male Pants B",
+    "second-class-female-skirt": "Second Female Skirt",
+    "second-class-female-pants": "Second Female Pants",
+    "second-class-male-pants-a": "Second Male Pants A",
+    "second-class-male-pants-b": "Second Male Pants B",
+    "first-class-female-skirt": "First Female Skirt",
+    "first-class-female-pants": "First Female Pants",
+    "first-class-male-pants-a": "First Male Pants A",
+    "first-class-male-pants-b": "First Male Pants B"
+  },
+  "outfitHasArm": {
+    "nude": false,
+    "cargo": true,
+    "coat": false,
+    "shirt": true,
+    "apron": false,
+    "fur-coat": true,
+    "service-vest": true,
+    "service-blazer": true,
+    "crew-vest": true,
+    "crew-coat": true,
+    "chef-waist-apron": true,
+    "chef-long-apron": true,
+    "tail": true,
+    "third-class": true,
+    "second-class": true,
+    "first-class": true,
+    "bottoms-a-flared-maxi-skirt": false,
+    "bottoms-a-high-waist-tapered-pants": false,
+    "bottoms-a-pencil-skirt": false,
+    "bottoms-a-pleated-midi-skirt": false,
+    "bottoms-a-slim-trousers": false,
+    "bottoms-a-straight-casual-pants": false,
+    "bottoms-a-wide-leg-trousers": false,
+    "bottoms-a-wrap-skirt": false,
+    "bottoms-b-asymmetrical-skirt": false,
+    "bottoms-b-cargo-skirt": false,
+    "bottoms-b-jogger-pants": false,
+    "bottoms-b-layered-peasant-skirt": false,
+    "bottoms-b-loose-work-trousers": false,
+    "bottoms-b-patched-rugged-pants": false,
+    "bottoms-b-relaxed-cargo-pants": false,
+    "bottoms-b-short-aline-skirt": false,
+    "tail-female-skirt": false,
+    "tail-female-pants": false,
+    "tail-male-pants-a": false,
+    "tail-male-pants-b": false,
+    "third-class-female-skirt": false,
+    "third-class-female-pants": false,
+    "third-class-male-pants-a": false,
+    "third-class-male-pants-b": false,
+    "second-class-female-skirt": false,
+    "second-class-female-pants": false,
+    "second-class-male-pants-a": false,
+    "second-class-male-pants-b": false,
+    "first-class-female-skirt": false,
+    "first-class-female-pants": false,
+    "first-class-male-pants-a": false,
+    "first-class-male-pants-b": false
+  },
+  "outfitPrepainted": [
+    "crew-vest",
+    "crew-coat",
+    "chef-waist-apron",
+    "chef-long-apron",
+    "service-blazer"
+  ],
+  "armOverlay": "missing-arm-views-only",
+  "skinHexes": "skin-hexes.json",
+  "shadingMap": "skin-shade.png",
+  "hairStyles": [
+    "bun",
+    "wavy",
+    "short",
+    "tail",
+    "third-class",
+    "second-class",
+    "first-class",
+    "elegant-bob",
+    "sleek-mid-length",
+    "long-straight",
+    "soft-waves",
+    "high-ponytail",
+    "braid",
+    "bun-updo",
+    "textured-messy",
+    "short-neat",
+    "side-part",
+    "swept-back",
+    "medium-layered",
+    "wavy-medium",
+    "curly-textured",
+    "undercut-fade",
+    "long-rugged"
+  ],
+  "classHairStyles": [
+    "tail",
+    "third-class",
+    "second-class",
+    "first-class"
+  ],
+  "v2Source": "source/bodies-clothes-v2.png",
+  "v2Manifest": "v2-manifest.json",
+  "greenAlignSource": "source/green-align-guide.png",
+  "guideLandmarks": "v2/guide-landmarks.json",
+  "mannequinDir": "mannequin",
+  "closetDir": "closet",
+  "hairClassDir": "hair-class",
+  "bodyBaseById": {
+    "realism": {
+      "label": "Realism",
+      "dir": "mannequin",
+      "outfits": [
+        "nude",
+        "cargo",
+        "coat",
+        "shirt",
+        "apron",
+        "fur-coat",
+        "service-vest",
+        "service-blazer",
+        "crew-vest",
+        "crew-coat",
+        "chef-waist-apron",
+        "chef-long-apron",
+        "tail",
+        "third-class",
+        "second-class",
+        "first-class",
+        "bottoms-a-flared-maxi-skirt",
+        "bottoms-a-high-waist-tapered-pants",
+        "bottoms-a-pencil-skirt",
+        "bottoms-a-pleated-midi-skirt",
+        "bottoms-a-slim-trousers",
+        "bottoms-a-straight-casual-pants",
+        "bottoms-a-wide-leg-trousers",
+        "bottoms-a-wrap-skirt",
+        "bottoms-b-asymmetrical-skirt",
+        "bottoms-b-cargo-skirt",
+        "bottoms-b-jogger-pants",
+        "bottoms-b-layered-peasant-skirt",
+        "bottoms-b-loose-work-trousers",
+        "bottoms-b-patched-rugged-pants",
+        "bottoms-b-relaxed-cargo-pants",
+        "bottoms-b-short-aline-skirt",
+        "tail-female-skirt",
+        "tail-female-pants",
+        "tail-male-pants-a",
+        "tail-male-pants-b",
+        "third-class-female-skirt",
+        "third-class-female-pants",
+        "third-class-male-pants-a",
+        "third-class-male-pants-b",
+        "second-class-female-skirt",
+        "second-class-female-pants",
+        "second-class-male-pants-a",
+        "second-class-male-pants-b",
+        "first-class-female-skirt",
+        "first-class-female-pants",
+        "first-class-male-pants-a",
+        "first-class-male-pants-b"
+      ],
+      "hairStyles": [
+        "bun",
+        "wavy",
+        "short",
+        "tail",
+        "third-class",
+        "second-class",
+        "first-class",
+        "elegant-bob",
+        "sleek-mid-length",
+        "long-straight",
+        "soft-waves",
+        "high-ponytail",
+        "braid",
+        "bun-updo",
+        "textured-messy",
+        "short-neat",
+        "side-part",
+        "swept-back",
+        "medium-layered",
+        "wavy-medium",
+        "curly-textured",
+        "undercut-fade",
+        "long-rugged"
+      ],
+      "bodyBySex": {
+        "female": {
+          "front": "mannequin/body-female-front.png",
+          "side": "mannequin/body-female-side.png",
+          "back": "mannequin/body-female-back.png"
+        },
+        "male": {
+          "front": "mannequin/body-male-front.png",
+          "side": "mannequin/body-male-side.png",
+          "back": "mannequin/body-male-back.png"
+        }
+      },
+      "underwearBySex": {
+        "female": {
+          "front": "mannequin/underwear-female-front.png",
+          "side": "mannequin/underwear-female-side.png",
+          "back": "mannequin/underwear-female-back.png"
+        },
+        "male": {
+          "front": "mannequin/underwear-male-front.png",
+          "side": "mannequin/underwear-male-side.png",
+          "back": "mannequin/underwear-male-back.png"
+        }
+      },
+      "sideArmBySex": {
+        "female": {
+          "arm": "mannequin/arm-female-side.png"
+        },
+        "male": {
+          "arm": "mannequin/arm-male-side.png"
+        }
+      }
+    },
+    "chibi": {
+      "label": "Chibi (Living Sim)",
+      "dir": "chibi-living",
+      "frontOnly": true,
+      "paintedUnderwear": true,
+      "outfits": [
+        "nude"
+      ],
+      "hairStyles": [
+        "bun",
+        "wavy",
+        "short"
+      ],
+      "bodyBySex": {
+        "female": {
+          "front": "chibi-living/body-front.png"
+        }
+      },
+      "underwearBySex": {},
+      "sideArmBySex": {}
+    }
+  },
+  "bodyBySex": {
+    "female": {
+      "front": "mannequin/body-female-front.png",
+      "side": "mannequin/body-female-side.png",
+      "back": "mannequin/body-female-back.png"
+    },
+    "male": {
+      "front": "mannequin/body-male-front.png",
+      "side": "mannequin/body-male-side.png",
+      "back": "mannequin/body-male-back.png"
+    }
+  },
+  "underwearBySex": {
+    "female": {
+      "front": "mannequin/underwear-female-front.png",
+      "side": "mannequin/underwear-female-side.png",
+      "back": "mannequin/underwear-female-back.png"
+    },
+    "male": {
+      "front": "mannequin/underwear-male-front.png",
+      "side": "mannequin/underwear-male-side.png",
+      "back": "mannequin/underwear-male-back.png"
+    }
+  },
+  "underwearAlign": {
+    "female": {
+      "front": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "side": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "back": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "male": {
+      "front": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "side": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "back": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "guideBySex": {
+    "female": {
+      "front": "v2/guide/guide-female-front.png",
+      "side": "v2/guide/guide-female-side.png",
+      "back": "v2/guide/guide-female-back.png"
+    },
+    "male": {
+      "front": "v2/guide/guide-male-front.png",
+      "side": "v2/guide/guide-male-side.png",
+      "back": "v2/guide/guide-male-back.png"
+    }
+  },
+  "drawGuide": false,
+  "outfitBySex": {
+    "female": {
+      "front": "v2/outfit-female-front.png",
+      "side": "v2/outfit-female-side.png",
+      "back": "v2/outfit-female-back.png"
+    },
+    "male": {
+      "front": "v2/outfit-male-front.png",
+      "side": "v2/outfit-male-side.png",
+      "back": "v2/outfit-male-back.png"
+    }
+  },
+  "outfitAlign": {
+    "female": {
+      "front": {
+        "x": 30.39,
+        "y": 58.88,
+        "scale": 1.08
+      },
+      "side": {
+        "x": -6.83,
+        "y": 92,
+        "scale": 1
+      },
+      "back": {
+        "x": 38.52,
+        "y": 53.72,
+        "scale": 1.08
+      }
+    },
+    "male": {
+      "front": {
+        "x": 27.53,
+        "y": 56.32,
+        "scale": 1.08
+      },
+      "side": {
+        "x": -3.52,
+        "y": 92,
+        "scale": 1
+      },
+      "back": {
+        "x": 15.78,
+        "y": 56.56,
+        "scale": 1.08
+      }
+    }
+  },
+  "closetById": {
+    "coat": {
+      "female": {
+        "front": "closet/coat/outfit-coat-female-front.png",
+        "side": "closet/coat/outfit-coat-female-side.png",
+        "back": "closet/coat/outfit-coat-female-back.png"
+      },
+      "male": {
+        "front": "closet/coat/outfit-coat-male-front.png",
+        "side": "closet/coat/outfit-coat-male-side.png",
+        "back": "closet/coat/outfit-coat-male-back.png"
+      }
+    },
+    "shirt": {
+      "female": {
+        "front": "closet/shirt/outfit-shirt-female-front.png",
+        "side": "closet/shirt/outfit-shirt-female-side.png",
+        "back": "closet/shirt/outfit-shirt-female-back.png",
+        "arm": "closet/shirt/outfit-shirt-female-arm.png"
+      },
+      "male": {
+        "front": "closet/shirt/outfit-shirt-male-front.png",
+        "side": "closet/shirt/outfit-shirt-male-side.png",
+        "back": "closet/shirt/outfit-shirt-male-back.png",
+        "arm": "closet/shirt/outfit-shirt-male-arm.png"
+      }
+    },
+    "apron": {
+      "female": {
+        "front": "closet/apron/outfit-apron-female-front.png",
+        "side": "closet/apron/outfit-apron-female-side.png",
+        "back": "closet/apron/outfit-apron-female-back.png"
+      },
+      "male": {
+        "front": "closet/apron/outfit-apron-male-front.png",
+        "side": "closet/apron/outfit-apron-male-side.png",
+        "back": "closet/apron/outfit-apron-male-back.png"
+      }
+    },
+    "fur-coat": {
+      "female": {
+        "front": "closet/fur-coat/outfit-fur-coat-female-front.png",
+        "side": "closet/fur-coat/outfit-fur-coat-female-side.png",
+        "back": "closet/fur-coat/outfit-fur-coat-female-back.png",
+        "arm": "closet/fur-coat/outfit-fur-coat-female-arm.png"
+      },
+      "male": {
+        "front": "closet/fur-coat/outfit-fur-coat-male-front.png",
+        "side": "closet/fur-coat/outfit-fur-coat-male-side.png",
+        "back": "closet/fur-coat/outfit-fur-coat-male-back.png",
+        "arm": "closet/fur-coat/outfit-fur-coat-male-arm.png"
+      }
+    },
+    "service-vest": {
+      "female": {
+        "front": "closet/service-vest/outfit-service-vest-female-front.png",
+        "side": "closet/service-vest/outfit-service-vest-female-side.png",
+        "back": "closet/service-vest/outfit-service-vest-female-back.png",
+        "arm": "closet/service-vest/outfit-service-vest-female-arm.png"
+      },
+      "male": {
+        "front": "closet/service-vest/outfit-service-vest-male-front.png",
+        "side": "closet/service-vest/outfit-service-vest-male-side.png",
+        "back": "closet/service-vest/outfit-service-vest-male-back.png",
+        "arm": "closet/service-vest/outfit-service-vest-male-arm.png"
+      }
+    },
+    "service-blazer": {
+      "female": {
+        "front": "closet/service-blazer/outfit-service-blazer-female-front.png",
+        "side": "closet/service-blazer/outfit-service-blazer-female-side.png",
+        "back": "closet/service-blazer/outfit-service-blazer-female-back.png",
+        "arm": "closet/service-blazer/outfit-service-blazer-female-arm.png"
+      },
+      "male": {
+        "front": "closet/service-blazer/outfit-service-blazer-male-front.png",
+        "side": "closet/service-blazer/outfit-service-blazer-male-side.png",
+        "back": "closet/service-blazer/outfit-service-blazer-male-back.png",
+        "arm": "closet/service-blazer/outfit-service-blazer-male-arm.png"
+      }
+    },
+    "crew-vest": {
+      "female": {
+        "front": "closet/crew-vest/outfit-crew-vest-female-front.png",
+        "side": "closet/crew-vest/outfit-crew-vest-female-side.png",
+        "back": "closet/crew-vest/outfit-crew-vest-female-back.png",
+        "arm": "closet/crew-vest/outfit-crew-vest-female-arm.png"
+      },
+      "male": {
+        "front": "closet/crew-vest/outfit-crew-vest-male-front.png",
+        "side": "closet/crew-vest/outfit-crew-vest-male-side.png",
+        "back": "closet/crew-vest/outfit-crew-vest-male-back.png",
+        "arm": "closet/crew-vest/outfit-crew-vest-male-arm.png"
+      }
+    },
+    "crew-coat": {
+      "female": {
+        "front": "closet/crew-coat/outfit-crew-coat-female-front.png",
+        "side": "closet/crew-coat/outfit-crew-coat-female-side.png",
+        "back": "closet/crew-coat/outfit-crew-coat-female-back.png",
+        "arm": "closet/crew-coat/outfit-crew-coat-female-arm.png"
+      },
+      "male": {
+        "front": "closet/crew-coat/outfit-crew-coat-male-front.png",
+        "side": "closet/crew-coat/outfit-crew-coat-male-side.png",
+        "back": "closet/crew-coat/outfit-crew-coat-male-back.png",
+        "arm": "closet/crew-coat/outfit-crew-coat-male-arm.png"
+      }
+    },
+    "chef-waist-apron": {
+      "female": {
+        "front": "closet/chef-waist-apron/outfit-chef-waist-apron-female-front.png",
+        "side": "closet/chef-waist-apron/outfit-chef-waist-apron-female-side.png",
+        "back": "closet/chef-waist-apron/outfit-chef-waist-apron-female-back.png",
+        "arm": "closet/chef-waist-apron/outfit-chef-waist-apron-female-arm.png"
+      },
+      "male": {
+        "front": "closet/chef-waist-apron/outfit-chef-waist-apron-male-front.png",
+        "side": "closet/chef-waist-apron/outfit-chef-waist-apron-male-side.png",
+        "back": "closet/chef-waist-apron/outfit-chef-waist-apron-male-back.png",
+        "arm": "closet/chef-waist-apron/outfit-chef-waist-apron-male-arm.png"
+      }
+    },
+    "chef-long-apron": {
+      "female": {
+        "front": "closet/chef-long-apron/outfit-chef-long-apron-female-front.png",
+        "side": "closet/chef-long-apron/outfit-chef-long-apron-female-side.png",
+        "back": "closet/chef-long-apron/outfit-chef-long-apron-female-back.png",
+        "arm": "closet/chef-long-apron/outfit-chef-long-apron-female-arm.png"
+      },
+      "male": {
+        "front": "closet/chef-long-apron/outfit-chef-long-apron-male-front.png",
+        "side": "closet/chef-long-apron/outfit-chef-long-apron-male-side.png",
+        "back": "closet/chef-long-apron/outfit-chef-long-apron-male-back.png",
+        "arm": "closet/chef-long-apron/outfit-chef-long-apron-male-arm.png"
+      }
+    },
+    "tail": {
+      "female": {
+        "front": "closet/tail/outfit-tail-female-front.png",
+        "side": "closet/tail/outfit-tail-female-side.png",
+        "back": "closet/tail/outfit-tail-female-back.png",
+        "arm": "closet/tail/outfit-tail-female-arm.png"
+      },
+      "male": {
+        "front": "closet/tail/outfit-tail-male-front.png",
+        "side": "closet/tail/outfit-tail-male-side.png",
+        "back": "closet/tail/outfit-tail-male-back.png",
+        "arm": "closet/tail/outfit-tail-male-arm.png"
+      }
+    },
+    "third-class": {
+      "female": {
+        "front": "closet/third-class/outfit-third-class-female-front.png",
+        "side": "closet/third-class/outfit-third-class-female-side.png",
+        "back": "closet/third-class/outfit-third-class-female-back.png",
+        "arm": "closet/third-class/outfit-third-class-female-arm.png"
+      },
+      "male": {
+        "front": "closet/third-class/outfit-third-class-male-front.png",
+        "side": "closet/third-class/outfit-third-class-male-side.png",
+        "back": "closet/third-class/outfit-third-class-male-back.png",
+        "arm": "closet/third-class/outfit-third-class-male-arm.png"
+      }
+    },
+    "second-class": {
+      "female": {
+        "front": "closet/second-class/outfit-second-class-female-front.png",
+        "side": "closet/second-class/outfit-second-class-female-side.png",
+        "back": "closet/second-class/outfit-second-class-female-back.png",
+        "arm": "closet/second-class/outfit-second-class-female-arm.png"
+      },
+      "male": {
+        "front": "closet/second-class/outfit-second-class-male-front.png",
+        "side": "closet/second-class/outfit-second-class-male-side.png",
+        "back": "closet/second-class/outfit-second-class-male-back.png",
+        "arm": "closet/second-class/outfit-second-class-male-arm.png"
+      }
+    },
+    "first-class": {
+      "female": {
+        "front": "closet/first-class/outfit-first-class-female-front.png",
+        "side": "closet/first-class/outfit-first-class-female-side.png",
+        "back": "closet/first-class/outfit-first-class-female-back.png",
+        "arm": "closet/first-class/outfit-first-class-female-arm.png"
+      },
+      "male": {
+        "front": "closet/first-class/outfit-first-class-male-front.png",
+        "side": "closet/first-class/outfit-first-class-male-side.png",
+        "back": "closet/first-class/outfit-first-class-male-back.png",
+        "arm": "closet/first-class/outfit-first-class-male-arm.png"
+      }
+    },
+    "bottoms-a-flared-maxi-skirt": {
+      "female": {
+        "front": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-front.png",
+        "side": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-side.png",
+        "back": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-front.png",
+        "side": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-side.png",
+        "back": "closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-back.png"
+      }
+    },
+    "bottoms-a-high-waist-tapered-pants": {
+      "female": {
+        "front": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-front.png",
+        "side": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-side.png",
+        "back": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-front.png",
+        "side": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-side.png",
+        "back": "closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-back.png"
+      }
+    },
+    "bottoms-a-pencil-skirt": {
+      "female": {
+        "front": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-front.png",
+        "side": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-side.png",
+        "back": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-front.png",
+        "side": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-side.png",
+        "back": "closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-back.png"
+      }
+    },
+    "bottoms-a-pleated-midi-skirt": {
+      "female": {
+        "front": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-front.png",
+        "side": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-side.png",
+        "back": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-front.png",
+        "side": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-side.png",
+        "back": "closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-back.png"
+      }
+    },
+    "bottoms-a-slim-trousers": {
+      "female": {
+        "front": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-front.png",
+        "side": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-side.png",
+        "back": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-front.png",
+        "side": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-side.png",
+        "back": "closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-back.png"
+      }
+    },
+    "bottoms-a-straight-casual-pants": {
+      "female": {
+        "front": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-front.png",
+        "side": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-side.png",
+        "back": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-front.png",
+        "side": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-side.png",
+        "back": "closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-back.png"
+      }
+    },
+    "bottoms-a-wide-leg-trousers": {
+      "female": {
+        "front": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-front.png",
+        "side": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-side.png",
+        "back": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-front.png",
+        "side": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-side.png",
+        "back": "closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-back.png"
+      }
+    },
+    "bottoms-a-wrap-skirt": {
+      "female": {
+        "front": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-front.png",
+        "side": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-side.png",
+        "back": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-front.png",
+        "side": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-side.png",
+        "back": "closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-back.png"
+      }
+    },
+    "bottoms-b-asymmetrical-skirt": {
+      "female": {
+        "front": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-front.png",
+        "side": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-side.png",
+        "back": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-front.png",
+        "side": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-side.png",
+        "back": "closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-back.png"
+      }
+    },
+    "bottoms-b-cargo-skirt": {
+      "female": {
+        "front": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-front.png",
+        "side": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-side.png",
+        "back": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-front.png",
+        "side": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-side.png",
+        "back": "closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-back.png"
+      }
+    },
+    "bottoms-b-jogger-pants": {
+      "female": {
+        "front": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-front.png",
+        "side": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-side.png",
+        "back": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-front.png",
+        "side": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-side.png",
+        "back": "closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-back.png"
+      }
+    },
+    "bottoms-b-layered-peasant-skirt": {
+      "female": {
+        "front": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-front.png",
+        "side": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-side.png",
+        "back": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-front.png",
+        "side": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-side.png",
+        "back": "closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-back.png"
+      }
+    },
+    "bottoms-b-loose-work-trousers": {
+      "female": {
+        "front": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-front.png",
+        "side": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-side.png",
+        "back": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-front.png",
+        "side": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-side.png",
+        "back": "closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-back.png"
+      }
+    },
+    "bottoms-b-patched-rugged-pants": {
+      "female": {
+        "front": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-front.png",
+        "side": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-side.png",
+        "back": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-front.png",
+        "side": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-side.png",
+        "back": "closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-back.png"
+      }
+    },
+    "bottoms-b-relaxed-cargo-pants": {
+      "female": {
+        "front": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-front.png",
+        "side": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-side.png",
+        "back": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-front.png",
+        "side": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-side.png",
+        "back": "closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-back.png"
+      }
+    },
+    "bottoms-b-short-aline-skirt": {
+      "female": {
+        "front": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-front.png",
+        "side": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-side.png",
+        "back": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-back.png"
+      },
+      "male": {
+        "front": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-front.png",
+        "side": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-side.png",
+        "back": "closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-back.png"
+      }
+    },
+    "tail-female-skirt": {
+      "female": {
+        "front": "closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-front.png",
+        "side": "closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-side.png",
+        "back": "closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-back.png"
+      },
+      "male": {}
+    },
+    "tail-female-pants": {
+      "female": {
+        "front": "closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-front.png",
+        "side": "closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-side.png",
+        "back": "closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-back.png"
+      },
+      "male": {}
+    },
+    "tail-male-pants-a": {
+      "male": {
+        "front": "closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-front.png",
+        "side": "closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-side.png",
+        "back": "closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-back.png"
+      },
+      "female": {}
+    },
+    "tail-male-pants-b": {
+      "male": {
+        "front": "closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-front.png",
+        "side": "closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-side.png",
+        "back": "closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-back.png"
+      },
+      "female": {}
+    },
+    "third-class-female-skirt": {
+      "female": {
+        "front": "closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-front.png",
+        "side": "closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-side.png",
+        "back": "closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-back.png"
+      },
+      "male": {}
+    },
+    "third-class-female-pants": {
+      "female": {
+        "front": "closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-front.png",
+        "side": "closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-side.png",
+        "back": "closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-back.png"
+      },
+      "male": {}
+    },
+    "third-class-male-pants-a": {
+      "male": {
+        "front": "closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-front.png",
+        "side": "closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-side.png",
+        "back": "closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-back.png"
+      },
+      "female": {}
+    },
+    "third-class-male-pants-b": {
+      "male": {
+        "front": "closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-front.png",
+        "side": "closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-side.png",
+        "back": "closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-back.png"
+      },
+      "female": {}
+    },
+    "second-class-female-skirt": {
+      "female": {
+        "front": "closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-front.png",
+        "side": "closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-side.png",
+        "back": "closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-back.png"
+      },
+      "male": {}
+    },
+    "second-class-female-pants": {
+      "female": {
+        "front": "closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-front.png",
+        "side": "closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-side.png",
+        "back": "closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-back.png"
+      },
+      "male": {}
+    },
+    "second-class-male-pants-a": {
+      "male": {
+        "front": "closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-front.png",
+        "side": "closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-side.png",
+        "back": "closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-back.png"
+      },
+      "female": {}
+    },
+    "second-class-male-pants-b": {
+      "male": {
+        "front": "closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-front.png",
+        "side": "closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-side.png",
+        "back": "closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-back.png"
+      },
+      "female": {}
+    },
+    "first-class-female-skirt": {
+      "female": {
+        "front": "closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-front.png",
+        "side": "closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-side.png",
+        "back": "closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-back.png"
+      },
+      "male": {}
+    },
+    "first-class-female-pants": {
+      "female": {
+        "front": "closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-front.png",
+        "side": "closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-side.png",
+        "back": "closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-back.png"
+      },
+      "male": {}
+    },
+    "first-class-male-pants-a": {
+      "male": {
+        "front": "closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-front.png",
+        "side": "closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-side.png",
+        "back": "closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-back.png"
+      },
+      "female": {}
+    },
+    "first-class-male-pants-b": {
+      "male": {
+        "front": "closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-front.png",
+        "side": "closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-side.png",
+        "back": "closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-back.png"
+      },
+      "female": {}
+    }
+  },
+  "hairClassBySex": {
+    "tail": {
+      "female": {
+        "front": "hair-class/hair-tail-female-front.png",
+        "side": "hair-class/hair-tail-female-side.png",
+        "back": "hair-class/hair-tail-female-back.png"
+      },
+      "male": {
+        "front": "hair-class/hair-tail-male-front.png",
+        "side": "hair-class/hair-tail-male-side.png",
+        "back": "hair-class/hair-tail-male-back.png"
+      }
+    },
+    "third-class": {
+      "female": {
+        "front": "hair-class/hair-third-class-female-front.png",
+        "side": "hair-class/hair-third-class-female-side.png",
+        "back": "hair-class/hair-third-class-female-back.png"
+      },
+      "male": {
+        "front": "hair-class/hair-third-class-male-front.png",
+        "side": "hair-class/hair-third-class-male-side.png",
+        "back": "hair-class/hair-third-class-male-back.png"
+      }
+    },
+    "second-class": {
+      "female": {
+        "front": "hair-class/hair-second-class-female-front.png",
+        "side": "hair-class/hair-second-class-female-side.png",
+        "back": "hair-class/hair-second-class-female-back.png"
+      },
+      "male": {
+        "front": "hair-class/hair-second-class-male-front.png",
+        "side": "hair-class/hair-second-class-male-side.png",
+        "back": "hair-class/hair-second-class-male-back.png"
+      }
+    },
+    "first-class": {
+      "female": {
+        "front": "hair-class/hair-first-class-female-front.png",
+        "side": "hair-class/hair-first-class-female-side.png",
+        "back": "hair-class/hair-first-class-female-back.png"
+      },
+      "male": {
+        "front": "hair-class/hair-first-class-male-front.png",
+        "side": "hair-class/hair-first-class-male-side.png",
+        "back": "hair-class/hair-first-class-male-back.png"
+      }
+    }
+  },
+  "wardrobe": {
+    "tops": [
+      "v2/top-bra-a.png",
+      "v2/top-bra-b.png",
+      "v2/top-shirt-a.png",
+      "v2/top-shirt-b.png"
+    ],
+    "pants": [
+      "v2/pants-a.png",
+      "v2/pants-b.png",
+      "v2/pants-c.png",
+      "v2/pants-d.png"
+    ],
+    "boots": [
+      "v2/boot-a.png",
+      "v2/boot-b.png",
+      "v2/boot-c.png",
+      "v2/boot-d.png"
+    ],
+    "rigRefs": [
+      "v2/rig-blue.png",
+      "v2/rig-pink.png"
+    ]
+  },
+  "views": {
+    "front": {
+      "body": "mannequin/body-female-front.png",
+      "underwear": "mannequin/underwear-female-front.png",
+      "outfit": "v2/outfit-female-front.png",
+      "head": "head-front.png",
+      "hair": "hair-wavy-front.png",
+      "hairByStyle": {
+        "bun": "hair-bun-front.png",
+        "wavy": "hair-wavy-front.png",
+        "short": "hair-short-front.png"
+      },
+      "eyes": "eyes-r0c0.png"
+    },
+    "side": {
+      "body": "mannequin/body-female-side.png",
+      "underwear": "mannequin/underwear-female-side.png",
+      "outfit": "v2/outfit-female-side.png",
+      "hair": "hair-wavy-side.png",
+      "hairByStyle": {
+        "bun": "hair-bun-side.png",
+        "wavy": "hair-wavy-side.png",
+        "short": "hair-short-side.png"
+      }
+    },
+    "back": {
+      "body": "mannequin/body-female-back.png",
+      "underwear": "mannequin/underwear-female-back.png",
+      "outfit": "v2/outfit-female-back.png",
+      "hair": "hair-wavy-back.png",
+      "hairByStyle": {
+        "bun": "hair-bun-back.png",
+        "wavy": "hair-wavy-back.png",
+        "short": "hair-short-back.png"
+      }
+    }
+  },
+  "armsSource": "source/arms-sheet.png",
+  "armsManifest": "v2/arms-manifest.json",
+  "sideArmBySex": {
+    "female": {
+      "arm": "mannequin/arm-female-side.png"
+    },
+    "male": {
+      "arm": "mannequin/arm-male-side.png"
+    }
+  },
+  "sideArmAlign": {
+    "female": {
+      "arm": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "hand": "left",
+      "angle": "side",
+      "space": "mannequin"
+    },
+    "male": {
+      "arm": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "hand": "left",
+      "angle": "side",
+      "space": "mannequin"
+    }
+  },
+  "cargoSleeveBySex": {
+    "female": "v2/arms/female-left-sleeve-side.png",
+    "male": "v2/arms/male-left-sleeve-side.png"
+  },
+  "cargoSleeveAlign": {
+    "female": {
+      "scale": 0.581395,
+      "x": 46.3,
+      "y": 130.75
+    },
+    "male": {
+      "scale": 0.577851,
+      "x": 56.38,
+      "y": 133.65
+    }
+  },
+  "armAngles": [
+    "side",
+    "inner",
+    "outer",
+    "back"
+  ],
+  "armHands": [
+    "left",
+    "right"
+  ],
+  "collectionHairStyles": [
+    "elegant-bob",
+    "sleek-mid-length",
+    "long-straight",
+    "soft-waves",
+    "high-ponytail",
+    "braid",
+    "bun-updo",
+    "textured-messy",
+    "short-neat",
+    "side-part",
+    "swept-back",
+    "medium-layered",
+    "wavy-medium",
+    "curly-textured",
+    "undercut-fade",
+    "long-rugged"
+  ],
+  "femaleCollectionHair": [
+    "elegant-bob",
+    "sleek-mid-length",
+    "long-straight",
+    "soft-waves",
+    "high-ponytail",
+    "braid",
+    "bun-updo",
+    "textured-messy"
+  ],
+  "maleCollectionHair": [
+    "short-neat",
+    "side-part",
+    "swept-back",
+    "medium-layered",
+    "wavy-medium",
+    "curly-textured",
+    "undercut-fade",
+    "long-rugged"
+  ],
+  "hairCollectionDir": "hair-collection",
+  "slots": {
+    "bottom": [
+      "bottoms-a-flared-maxi-skirt",
+      "bottoms-a-high-waist-tapered-pants",
+      "bottoms-a-pencil-skirt",
+      "bottoms-a-pleated-midi-skirt",
+      "bottoms-a-slim-trousers",
+      "bottoms-a-straight-casual-pants",
+      "bottoms-a-wide-leg-trousers",
+      "bottoms-a-wrap-skirt",
+      "bottoms-b-asymmetrical-skirt",
+      "bottoms-b-cargo-skirt",
+      "bottoms-b-jogger-pants",
+      "bottoms-b-layered-peasant-skirt",
+      "bottoms-b-loose-work-trousers",
+      "bottoms-b-patched-rugged-pants",
+      "bottoms-b-relaxed-cargo-pants",
+      "bottoms-b-short-aline-skirt",
+      "tail-female-skirt",
+      "tail-female-pants",
+      "tail-male-pants-a",
+      "tail-male-pants-b",
+      "third-class-female-skirt",
+      "third-class-female-pants",
+      "third-class-male-pants-a",
+      "third-class-male-pants-b",
+      "second-class-female-skirt",
+      "second-class-female-pants",
+      "second-class-male-pants-a",
+      "second-class-male-pants-b",
+      "first-class-female-skirt",
+      "first-class-female-pants",
+      "first-class-male-pants-a",
+      "first-class-male-pants-b"
+    ],
+    "top": [
+      "shirt",
+      "service-vest",
+      "service-blazer",
+      "crew-vest"
+    ],
+    "apron": [
+      "apron",
+      "chef-waist-apron"
+    ],
+    "coat": [
+      "coat",
+      "fur-coat",
+      "crew-coat"
+    ],
+    "preset": [
+      "cargo",
+      "chef-long-apron",
+      "tail",
+      "third-class",
+      "second-class",
+      "first-class"
+    ]
+  },
+  "hairCollectionBySex": {
+    "elegant-bob": {
+      "female": {
+        "front": "hair-collection/hair-elegant-bob-female-front.png",
+        "side": "hair-collection/hair-elegant-bob-female-side.png",
+        "back": "hair-collection/hair-elegant-bob-female-back.png"
+      }
+    },
+    "sleek-mid-length": {
+      "female": {
+        "front": "hair-collection/hair-sleek-mid-length-female-front.png",
+        "side": "hair-collection/hair-sleek-mid-length-female-side.png",
+        "back": "hair-collection/hair-sleek-mid-length-female-back.png"
+      }
+    },
+    "long-straight": {
+      "female": {
+        "front": "hair-collection/hair-long-straight-female-front.png",
+        "side": "hair-collection/hair-long-straight-female-side.png",
+        "back": "hair-collection/hair-long-straight-female-back.png"
+      }
+    },
+    "soft-waves": {
+      "female": {
+        "front": "hair-collection/hair-soft-waves-female-front.png",
+        "side": "hair-collection/hair-soft-waves-female-side.png",
+        "back": "hair-collection/hair-soft-waves-female-back.png"
+      }
+    },
+    "high-ponytail": {
+      "female": {
+        "front": "hair-collection/hair-high-ponytail-female-front.png",
+        "side": "hair-collection/hair-high-ponytail-female-side.png",
+        "back": "hair-collection/hair-high-ponytail-female-back.png"
+      }
+    },
+    "braid": {
+      "female": {
+        "front": "hair-collection/hair-braid-female-front.png",
+        "side": "hair-collection/hair-braid-female-side.png",
+        "back": "hair-collection/hair-braid-female-back.png"
+      }
+    },
+    "bun-updo": {
+      "female": {
+        "front": "hair-collection/hair-bun-updo-female-front.png",
+        "side": "hair-collection/hair-bun-updo-female-side.png",
+        "back": "hair-collection/hair-bun-updo-female-back.png"
+      }
+    },
+    "textured-messy": {
+      "female": {
+        "front": "hair-collection/hair-textured-messy-female-front.png",
+        "side": "hair-collection/hair-textured-messy-female-side.png",
+        "back": "hair-collection/hair-textured-messy-female-back.png"
+      }
+    },
+    "short-neat": {
+      "male": {
+        "front": "hair-collection/hair-short-neat-male-front.png",
+        "side": "hair-collection/hair-short-neat-male-side.png",
+        "back": "hair-collection/hair-short-neat-male-back.png"
+      }
+    },
+    "side-part": {
+      "male": {
+        "front": "hair-collection/hair-side-part-male-front.png",
+        "side": "hair-collection/hair-side-part-male-side.png",
+        "back": "hair-collection/hair-side-part-male-back.png"
+      }
+    },
+    "swept-back": {
+      "male": {
+        "front": "hair-collection/hair-swept-back-male-front.png",
+        "side": "hair-collection/hair-swept-back-male-side.png",
+        "back": "hair-collection/hair-swept-back-male-back.png"
+      }
+    },
+    "medium-layered": {
+      "male": {
+        "front": "hair-collection/hair-medium-layered-male-front.png",
+        "side": "hair-collection/hair-medium-layered-male-side.png",
+        "back": "hair-collection/hair-medium-layered-male-back.png"
+      }
+    },
+    "wavy-medium": {
+      "male": {
+        "front": "hair-collection/hair-wavy-medium-male-front.png",
+        "side": "hair-collection/hair-wavy-medium-male-side.png",
+        "back": "hair-collection/hair-wavy-medium-male-back.png"
+      }
+    },
+    "curly-textured": {
+      "male": {
+        "front": "hair-collection/hair-curly-textured-male-front.png",
+        "side": "hair-collection/hair-curly-textured-male-side.png",
+        "back": "hair-collection/hair-curly-textured-male-back.png"
+      }
+    },
+    "undercut-fade": {
+      "male": {
+        "front": "hair-collection/hair-undercut-fade-male-front.png",
+        "side": "hair-collection/hair-undercut-fade-male-side.png",
+        "back": "hair-collection/hair-undercut-fade-male-back.png"
+      }
+    },
+    "long-rugged": {
+      "male": {
+        "front": "hair-collection/hair-long-rugged-male-front.png",
+        "side": "hair-collection/hair-long-rugged-male-side.png",
+        "back": "hair-collection/hair-long-rugged-male-back.png"
+      }
+    }
+  }
+}
