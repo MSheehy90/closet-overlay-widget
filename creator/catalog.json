@@ -1,0 +1,1373 @@
+{
+  "version": 1,
+  "source": "living-food-chain-sim",
+  "status": "ready",
+  "zOrder": [
+    "body",
+    "underwear",
+    "shirt",
+    "pants",
+    "apron",
+    "coat",
+    "hair"
+  ],
+  "slotLabels": {
+    "body": "Body",
+    "underwear": "Underwear",
+    "shirt": "Shirt",
+    "pants": "Pants",
+    "apron": "Apron",
+    "coat": "Coat",
+    "hair": "Hair"
+  },
+  "groups": [
+    "Shirt",
+    "Bottoms A",
+    "Bottoms B",
+    "Class bottoms",
+    "Apron",
+    "Coat",
+    "Uniforms",
+    "Hair",
+    "Hair class",
+    "Hair collection"
+  ],
+  "bodies": {
+    "realism": [
+      {
+        "id": "body-female-back",
+        "sex": "female",
+        "view": "back",
+        "path": "creator/hires-pack/body-female-back.png",
+        "label": "female back"
+      },
+      {
+        "id": "body-female-front",
+        "sex": "female",
+        "view": "front",
+        "path": "creator/hires-pack/body-female-front.png",
+        "label": "female front"
+      },
+      {
+        "id": "body-female-side",
+        "sex": "female",
+        "view": "side",
+        "path": "creator/hires-pack/body-female-side.png",
+        "label": "female side"
+      },
+      {
+        "id": "body-male-back",
+        "sex": "male",
+        "view": "back",
+        "path": "creator/hires-pack/body-male-back.png",
+        "label": "male back"
+      },
+      {
+        "id": "body-male-front",
+        "sex": "male",
+        "view": "front",
+        "path": "creator/hires-pack/body-male-front.png",
+        "label": "male front"
+      },
+      {
+        "id": "body-male-side",
+        "sex": "male",
+        "view": "side",
+        "path": "creator/hires-pack/body-male-side.png",
+        "label": "male side"
+      },
+      {
+        "id": "mannequin-arm-female-side",
+        "sex": "female",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/arm-female-side.png",
+        "label": "Mannequin arm-female-side",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-arm-male-side",
+        "sex": "male",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/arm-male-side.png",
+        "label": "Mannequin arm-male-side",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-female-back",
+        "sex": "female",
+        "view": "back",
+        "path": "creator/hires-pack/mannequin/body-female-back.png",
+        "label": "Mannequin body-female-back",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-female-front",
+        "sex": "female",
+        "view": "front",
+        "path": "creator/hires-pack/mannequin/body-female-front.png",
+        "label": "Mannequin body-female-front",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-female-side",
+        "sex": "female",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/body-female-side.png",
+        "label": "Mannequin body-female-side",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-male-back",
+        "sex": "male",
+        "view": "back",
+        "path": "creator/hires-pack/mannequin/body-male-back.png",
+        "label": "Mannequin body-male-back",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-male-front",
+        "sex": "male",
+        "view": "front",
+        "path": "creator/hires-pack/mannequin/body-male-front.png",
+        "label": "Mannequin body-male-front",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-body-male-side",
+        "sex": "male",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/body-male-side.png",
+        "label": "Mannequin body-male-side",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-female-back",
+        "sex": "female",
+        "view": "back",
+        "path": "creator/hires-pack/mannequin/underwear-female-back.png",
+        "label": "Mannequin underwear-female-back",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-female-front",
+        "sex": "female",
+        "view": "front",
+        "path": "creator/hires-pack/mannequin/underwear-female-front.png",
+        "label": "Mannequin underwear-female-front",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-female-side",
+        "sex": "female",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/underwear-female-side.png",
+        "label": "Mannequin underwear-female-side",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-male-back",
+        "sex": "male",
+        "view": "back",
+        "path": "creator/hires-pack/mannequin/underwear-male-back.png",
+        "label": "Mannequin underwear-male-back",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-male-front",
+        "sex": "male",
+        "view": "front",
+        "path": "creator/hires-pack/mannequin/underwear-male-front.png",
+        "label": "Mannequin underwear-male-front",
+        "mannequin": true
+      },
+      {
+        "id": "mannequin-underwear-male-side",
+        "sex": "male",
+        "view": "side",
+        "path": "creator/hires-pack/mannequin/underwear-male-side.png",
+        "label": "Mannequin underwear-male-side",
+        "mannequin": true
+      }
+    ],
+    "chibi": [
+      {
+        "id": "chibi-body-front",
+        "sex": "neutral",
+        "view": "front",
+        "path": "creator/hires-pack/chibi-living/body-front.png",
+        "label": "body-front"
+      }
+    ]
+  },
+  "underwear": [],
+  "clothes": [
+    {
+      "id": "apron/outfit-apron-female",
+      "folder": "apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Apron · outfit apron female",
+      "views": {
+        "back": "creator/hires-pack/closet/apron/outfit-apron-female-back.png",
+        "front": "creator/hires-pack/closet/apron/outfit-apron-female-front.png",
+        "side": "creator/hires-pack/closet/apron/outfit-apron-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "apron/outfit-apron-male",
+      "folder": "apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Apron · outfit apron male",
+      "views": {
+        "back": "creator/hires-pack/closet/apron/outfit-apron-male-back.png",
+        "front": "creator/hires-pack/closet/apron/outfit-apron-male-front.png",
+        "side": "creator/hires-pack/closet/apron/outfit-apron-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "chef-long-apron/outfit-chef-long-apron-female",
+      "folder": "chef-long-apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Chef long apron · outfit chef long apron female",
+      "views": {
+        "front": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-female-front.png",
+        "back": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-female-back.png",
+        "side": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "chef-long-apron/outfit-chef-long-apron-male",
+      "folder": "chef-long-apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Chef long apron · outfit chef long apron male",
+      "views": {
+        "front": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-male-front.png",
+        "back": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-male-back.png",
+        "side": "creator/hires-pack/closet/chef-long-apron/outfit-chef-long-apron-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "chef-waist-apron/outfit-chef-waist-apron-female",
+      "folder": "chef-waist-apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Chef waist apron · outfit chef waist apron female",
+      "views": {
+        "front": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-female-front.png",
+        "back": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-female-back.png",
+        "side": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "chef-waist-apron/outfit-chef-waist-apron-male",
+      "folder": "chef-waist-apron",
+      "slot": "apron",
+      "group": "Apron",
+      "label": "Chef waist apron · outfit chef waist apron male",
+      "views": {
+        "front": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-male-front.png",
+        "back": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-male-back.png",
+        "side": "creator/hires-pack/closet/chef-waist-apron/outfit-chef-waist-apron-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-flared-maxi-skirt",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a flared maxi skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/flared-maxi-skirt/outfit-bottoms-a-flared-maxi-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-high-waist-tapered-pants",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a high waist tapered pants",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/high-waist-tapered-pants/outfit-bottoms-a-high-waist-tapered-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-pencil-skirt",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a pencil skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/pencil-skirt/outfit-bottoms-a-pencil-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-pleated-midi-skirt",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a pleated midi skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/pleated-midi-skirt/outfit-bottoms-a-pleated-midi-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-slim-trousers",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a slim trousers",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/slim-trousers/outfit-bottoms-a-slim-trousers-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-straight-casual-pants",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a straight casual pants",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/straight-casual-pants/outfit-bottoms-a-straight-casual-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-wide-leg-trousers",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a wide leg trousers",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/wide-leg-trousers/outfit-bottoms-a-wide-leg-trousers-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-a/outfit-bottoms-a-wrap-skirt",
+      "folder": "bottoms-a",
+      "slot": "pants",
+      "group": "Bottoms A",
+      "label": "Bottoms A · outfit bottoms a wrap skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-a/wrap-skirt/outfit-bottoms-a-wrap-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-asymmetrical-skirt",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b asymmetrical skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/asymmetrical-skirt/outfit-bottoms-b-asymmetrical-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-cargo-skirt",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b cargo skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/cargo-skirt/outfit-bottoms-b-cargo-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-jogger-pants",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b jogger pants",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/jogger-pants/outfit-bottoms-b-jogger-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-layered-peasant-skirt",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b layered peasant skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/layered-peasant-skirt/outfit-bottoms-b-layered-peasant-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-loose-work-trousers",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b loose work trousers",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/loose-work-trousers/outfit-bottoms-b-loose-work-trousers-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-patched-rugged-pants",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b patched rugged pants",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/patched-rugged-pants/outfit-bottoms-b-patched-rugged-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-relaxed-cargo-pants",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b relaxed cargo pants",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/relaxed-cargo-pants/outfit-bottoms-b-relaxed-cargo-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "bottoms-b/outfit-bottoms-b-short-aline-skirt",
+      "folder": "bottoms-b",
+      "slot": "pants",
+      "group": "Bottoms B",
+      "label": "Bottoms B · outfit bottoms b short aline skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-back.png",
+        "front": "creator/hires-pack/closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-front.png",
+        "side": "creator/hires-pack/closet/bottoms-b/short-aline-skirt/outfit-bottoms-b-short-aline-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-first-class-female-pants",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit first class female pants",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/first-class-female-pants/outfit-first-class-female-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-first-class-female-skirt",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit first class female skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/first-class-female-skirt/outfit-first-class-female-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-first-class-male-pants-a",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit first class male pants a",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-a/outfit-first-class-male-pants-a-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-first-class-male-pants-b",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit first class male pants b",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/first-class-male-pants-b/outfit-first-class-male-pants-b-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-second-class-female-pants",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit second class female pants",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/second-class-female-pants/outfit-second-class-female-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-second-class-female-skirt",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit second class female skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/second-class-female-skirt/outfit-second-class-female-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-second-class-male-pants-a",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit second class male pants a",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-a/outfit-second-class-male-pants-a-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-second-class-male-pants-b",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit second class male pants b",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/second-class-male-pants-b/outfit-second-class-male-pants-b-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-tail-female-pants",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit tail female pants",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/tail-female-pants/outfit-tail-female-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-tail-female-skirt",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit tail female skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/tail-female-skirt/outfit-tail-female-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-tail-male-pants-a",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit tail male pants a",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/tail-male-pants-a/outfit-tail-male-pants-a-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-tail-male-pants-b",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit tail male pants b",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/tail-male-pants-b/outfit-tail-male-pants-b-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-third-class-female-pants",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit third class female pants",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/third-class-female-pants/outfit-third-class-female-pants-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-third-class-female-skirt",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit third class female skirt",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/third-class-female-skirt/outfit-third-class-female-skirt-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-third-class-male-pants-a",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit third class male pants a",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-a/outfit-third-class-male-pants-a-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "class-bottoms/outfit-third-class-male-pants-b",
+      "folder": "class-bottoms",
+      "slot": "pants",
+      "group": "Class bottoms",
+      "label": "Class bottoms · outfit third class male pants b",
+      "views": {
+        "back": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-back.png",
+        "front": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-front.png",
+        "side": "creator/hires-pack/closet/class-bottoms/third-class-male-pants-b/outfit-third-class-male-pants-b-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "coat/outfit-coat-female",
+      "folder": "coat",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Coat · outfit coat female",
+      "views": {
+        "front": "creator/hires-pack/closet/coat/outfit-coat-female-front.png",
+        "back": "creator/hires-pack/closet/coat/outfit-coat-female-back.png",
+        "side": "creator/hires-pack/closet/coat/outfit-coat-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "coat/outfit-coat-male",
+      "folder": "coat",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Coat · outfit coat male",
+      "views": {
+        "front": "creator/hires-pack/closet/coat/outfit-coat-male-front.png",
+        "back": "creator/hires-pack/closet/coat/outfit-coat-male-back.png",
+        "side": "creator/hires-pack/closet/coat/outfit-coat-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "fur-coat/outfit-fur-coat-female",
+      "folder": "fur-coat",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Fur coat · outfit fur coat female",
+      "views": {
+        "front": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-female-front.png",
+        "back": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-female-back.png",
+        "side": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "fur-coat/outfit-fur-coat-male",
+      "folder": "fur-coat",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Fur coat · outfit fur coat male",
+      "views": {
+        "front": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-male-front.png",
+        "back": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-male-back.png",
+        "side": "creator/hires-pack/closet/fur-coat/outfit-fur-coat-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "tail/outfit-tail-female",
+      "folder": "tail",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Tail · outfit tail female",
+      "views": {
+        "front": "creator/hires-pack/closet/tail/outfit-tail-female-front.png",
+        "back": "creator/hires-pack/closet/tail/outfit-tail-female-back.png",
+        "side": "creator/hires-pack/closet/tail/outfit-tail-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "tail/outfit-tail-male",
+      "folder": "tail",
+      "slot": "coat",
+      "group": "Coat",
+      "label": "Tail · outfit tail male",
+      "views": {
+        "front": "creator/hires-pack/closet/tail/outfit-tail-male-front.png",
+        "back": "creator/hires-pack/closet/tail/outfit-tail-male-back.png",
+        "side": "creator/hires-pack/closet/tail/outfit-tail-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "shirt/outfit-shirt-female",
+      "folder": "shirt",
+      "slot": "shirt",
+      "group": "Shirt",
+      "label": "Shirt · outfit shirt female",
+      "views": {
+        "front": "creator/hires-pack/closet/shirt/outfit-shirt-female-front.png",
+        "back": "creator/hires-pack/closet/shirt/outfit-shirt-female-back.png",
+        "side": "creator/hires-pack/closet/shirt/outfit-shirt-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "shirt/outfit-shirt-male",
+      "folder": "shirt",
+      "slot": "shirt",
+      "group": "Shirt",
+      "label": "Shirt · outfit shirt male",
+      "views": {
+        "front": "creator/hires-pack/closet/shirt/outfit-shirt-male-front.png",
+        "back": "creator/hires-pack/closet/shirt/outfit-shirt-male-back.png",
+        "side": "creator/hires-pack/closet/shirt/outfit-shirt-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "crew-coat/outfit-crew-coat-female",
+      "folder": "crew-coat",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Crew coat · outfit crew coat female",
+      "views": {
+        "front": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-female-front.png",
+        "back": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-female-back.png",
+        "side": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "crew-coat/outfit-crew-coat-male",
+      "folder": "crew-coat",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Crew coat · outfit crew coat male",
+      "views": {
+        "front": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-male-front.png",
+        "back": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-male-back.png",
+        "side": "creator/hires-pack/closet/crew-coat/outfit-crew-coat-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "crew-vest/outfit-crew-vest-female",
+      "folder": "crew-vest",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Crew vest · outfit crew vest female",
+      "views": {
+        "front": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-female-front.png",
+        "back": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-female-back.png",
+        "side": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "crew-vest/outfit-crew-vest-male",
+      "folder": "crew-vest",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Crew vest · outfit crew vest male",
+      "views": {
+        "front": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-male-front.png",
+        "back": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-male-back.png",
+        "side": "creator/hires-pack/closet/crew-vest/outfit-crew-vest-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "first-class/outfit-first-class-female",
+      "folder": "first-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "First class · outfit first class female",
+      "views": {
+        "front": "creator/hires-pack/closet/first-class/outfit-first-class-female-front.png",
+        "back": "creator/hires-pack/closet/first-class/outfit-first-class-female-back.png",
+        "side": "creator/hires-pack/closet/first-class/outfit-first-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "first-class/outfit-first-class-male",
+      "folder": "first-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "First class · outfit first class male",
+      "views": {
+        "front": "creator/hires-pack/closet/first-class/outfit-first-class-male-front.png",
+        "back": "creator/hires-pack/closet/first-class/outfit-first-class-male-back.png",
+        "side": "creator/hires-pack/closet/first-class/outfit-first-class-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "second-class/outfit-second-class-female",
+      "folder": "second-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Second class · outfit second class female",
+      "views": {
+        "front": "creator/hires-pack/closet/second-class/outfit-second-class-female-front.png",
+        "back": "creator/hires-pack/closet/second-class/outfit-second-class-female-back.png",
+        "side": "creator/hires-pack/closet/second-class/outfit-second-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "second-class/outfit-second-class-male",
+      "folder": "second-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Second class · outfit second class male",
+      "views": {
+        "front": "creator/hires-pack/closet/second-class/outfit-second-class-male-front.png",
+        "back": "creator/hires-pack/closet/second-class/outfit-second-class-male-back.png",
+        "side": "creator/hires-pack/closet/second-class/outfit-second-class-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "service-blazer/outfit-service-blazer-female",
+      "folder": "service-blazer",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Service blazer · outfit service blazer female",
+      "views": {
+        "front": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-female-front.png",
+        "back": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-female-back.png",
+        "side": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "service-blazer/outfit-service-blazer-male",
+      "folder": "service-blazer",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Service blazer · outfit service blazer male",
+      "views": {
+        "front": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-male-front.png",
+        "back": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-male-back.png",
+        "side": "creator/hires-pack/closet/service-blazer/outfit-service-blazer-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "service-vest/outfit-service-vest-female",
+      "folder": "service-vest",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Service vest · outfit service vest female",
+      "views": {
+        "front": "creator/hires-pack/closet/service-vest/outfit-service-vest-female-front.png",
+        "back": "creator/hires-pack/closet/service-vest/outfit-service-vest-female-back.png",
+        "side": "creator/hires-pack/closet/service-vest/outfit-service-vest-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "service-vest/outfit-service-vest-male",
+      "folder": "service-vest",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Service vest · outfit service vest male",
+      "views": {
+        "front": "creator/hires-pack/closet/service-vest/outfit-service-vest-male-front.png",
+        "back": "creator/hires-pack/closet/service-vest/outfit-service-vest-male-back.png",
+        "side": "creator/hires-pack/closet/service-vest/outfit-service-vest-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "third-class/outfit-third-class-female",
+      "folder": "third-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Third class · outfit third class female",
+      "views": {
+        "front": "creator/hires-pack/closet/third-class/outfit-third-class-female-front.png",
+        "back": "creator/hires-pack/closet/third-class/outfit-third-class-female-back.png",
+        "side": "creator/hires-pack/closet/third-class/outfit-third-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "third-class/outfit-third-class-male",
+      "folder": "third-class",
+      "slot": "coat",
+      "group": "Uniforms",
+      "label": "Third class · outfit third class male",
+      "views": {
+        "front": "creator/hires-pack/closet/third-class/outfit-third-class-male-front.png",
+        "back": "creator/hires-pack/closet/third-class/outfit-third-class-male-back.png",
+        "side": "creator/hires-pack/closet/third-class/outfit-third-class-male-side.png"
+      },
+      "arms": {}
+    }
+  ],
+  "hair": [
+    {
+      "id": "hair-bun",
+      "style": "bun",
+      "source": "tint-map",
+      "label": "Bun",
+      "group": "Hair",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-bun-back.png",
+        "front": "creator/hires-pack/hair-bun-front.png",
+        "side": "creator/hires-pack/hair-bun-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-braid-female",
+      "style": "hair-braid-female",
+      "source": "hair-collection",
+      "label": "hair braid female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-braid-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-braid-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-braid-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-bun-updo-female",
+      "style": "hair-bun-updo-female",
+      "source": "hair-collection",
+      "label": "hair bun updo female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-bun-updo-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-bun-updo-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-bun-updo-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-curly-textured-male",
+      "style": "hair-curly-textured-male",
+      "source": "hair-collection",
+      "label": "hair curly textured male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-curly-textured-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-curly-textured-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-curly-textured-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-elegant-bob-female",
+      "style": "hair-elegant-bob-female",
+      "source": "hair-collection",
+      "label": "hair elegant bob female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-elegant-bob-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-elegant-bob-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-elegant-bob-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-first-class-female",
+      "style": "hair-first-class-female",
+      "source": "hair-class",
+      "label": "hair first class female",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-first-class-female-back.png",
+        "front": "creator/hires-pack/hair-class/hair-first-class-female-front.png",
+        "side": "creator/hires-pack/hair-class/hair-first-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-first-class-male",
+      "style": "hair-first-class-male",
+      "source": "hair-class",
+      "label": "hair first class male",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-first-class-male-back.png",
+        "front": "creator/hires-pack/hair-class/hair-first-class-male-front.png",
+        "side": "creator/hires-pack/hair-class/hair-first-class-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-high-ponytail-female",
+      "style": "hair-high-ponytail-female",
+      "source": "hair-collection",
+      "label": "hair high ponytail female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-high-ponytail-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-high-ponytail-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-high-ponytail-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-long-rugged-male",
+      "style": "hair-long-rugged-male",
+      "source": "hair-collection",
+      "label": "hair long rugged male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-long-rugged-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-long-rugged-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-long-rugged-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-long-straight-female",
+      "style": "hair-long-straight-female",
+      "source": "hair-collection",
+      "label": "hair long straight female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-long-straight-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-long-straight-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-long-straight-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-medium-layered-male",
+      "style": "hair-medium-layered-male",
+      "source": "hair-collection",
+      "label": "hair medium layered male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-medium-layered-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-medium-layered-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-medium-layered-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-part-male",
+      "style": "hair-part-male",
+      "source": "hair-collection",
+      "label": "hair part male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "side": "creator/hires-pack/hair-collection/hair-side-part-male-side.png",
+        "front": "creator/hires-pack/hair-collection/hair-side-part-male-front.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-second-class-female",
+      "style": "hair-second-class-female",
+      "source": "hair-class",
+      "label": "hair second class female",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-second-class-female-back.png",
+        "front": "creator/hires-pack/hair-class/hair-second-class-female-front.png",
+        "side": "creator/hires-pack/hair-class/hair-second-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-second-class-male",
+      "style": "hair-second-class-male",
+      "source": "hair-class",
+      "label": "hair second class male",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-second-class-male-back.png",
+        "front": "creator/hires-pack/hair-class/hair-second-class-male-front.png",
+        "side": "creator/hires-pack/hair-class/hair-second-class-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-short-neat-male",
+      "style": "hair-short-neat-male",
+      "source": "hair-collection",
+      "label": "hair short neat male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-short-neat-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-short-neat-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-short-neat-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-sleek-mid-length-female",
+      "style": "hair-sleek-mid-length-female",
+      "source": "hair-collection",
+      "label": "hair sleek mid length female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-sleek-mid-length-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-sleek-mid-length-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-sleek-mid-length-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-soft-waves-female",
+      "style": "hair-soft-waves-female",
+      "source": "hair-collection",
+      "label": "hair soft waves female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-soft-waves-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-soft-waves-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-soft-waves-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-swept-male",
+      "style": "hair-swept-male",
+      "source": "hair-collection",
+      "label": "hair swept male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-swept-back-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-swept-back-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-swept-back-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-tail-female",
+      "style": "hair-tail-female",
+      "source": "hair-class",
+      "label": "hair tail female",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-tail-female-back.png",
+        "front": "creator/hires-pack/hair-class/hair-tail-female-front.png",
+        "side": "creator/hires-pack/hair-class/hair-tail-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-tail-male",
+      "style": "hair-tail-male",
+      "source": "hair-class",
+      "label": "hair tail male",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-tail-male-back.png",
+        "front": "creator/hires-pack/hair-class/hair-tail-male-front.png",
+        "side": "creator/hires-pack/hair-class/hair-tail-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-textured-messy-female",
+      "style": "hair-textured-messy-female",
+      "source": "hair-collection",
+      "label": "hair textured messy female",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-textured-messy-female-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-textured-messy-female-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-textured-messy-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-third-class-female",
+      "style": "hair-third-class-female",
+      "source": "hair-class",
+      "label": "hair third class female",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-third-class-female-back.png",
+        "front": "creator/hires-pack/hair-class/hair-third-class-female-front.png",
+        "side": "creator/hires-pack/hair-class/hair-third-class-female-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-class/hair-third-class-male",
+      "style": "hair-third-class-male",
+      "source": "hair-class",
+      "label": "hair third class male",
+      "group": "Hair class",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-class/hair-third-class-male-back.png",
+        "front": "creator/hires-pack/hair-class/hair-third-class-male-front.png",
+        "side": "creator/hires-pack/hair-class/hair-third-class-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-undercut-fade-male",
+      "style": "hair-undercut-fade-male",
+      "source": "hair-collection",
+      "label": "hair undercut fade male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-undercut-fade-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-undercut-fade-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-undercut-fade-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-collection/hair-wavy-medium-male",
+      "style": "hair-wavy-medium-male",
+      "source": "hair-collection",
+      "label": "hair wavy medium male",
+      "group": "Hair collection",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-collection/hair-wavy-medium-male-back.png",
+        "front": "creator/hires-pack/hair-collection/hair-wavy-medium-male-front.png",
+        "side": "creator/hires-pack/hair-collection/hair-wavy-medium-male-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-short",
+      "style": "short",
+      "source": "tint-map",
+      "label": "Short",
+      "group": "Hair",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-short-back.png",
+        "front": "creator/hires-pack/hair-short-front.png",
+        "side": "creator/hires-pack/hair-short-side.png"
+      },
+      "arms": {}
+    },
+    {
+      "id": "hair-wavy",
+      "style": "wavy",
+      "source": "tint-map",
+      "label": "Wavy",
+      "group": "Hair",
+      "slot": "hair",
+      "views": {
+        "back": "creator/hires-pack/hair-wavy-back.png",
+        "front": "creator/hires-pack/hair-wavy-front.png",
+        "side": "creator/hires-pack/hair-wavy-side.png"
+      },
+      "arms": {}
+    }
+  ],
+  "counts": {
+    "pngs": 321,
+    "clothes": 60,
+    "hair": 27,
+    "realismBodies": 20,
+    "chibiBodies": 1,
+    "underwear": 0
+  },
+  "manifestPresent": true
+}

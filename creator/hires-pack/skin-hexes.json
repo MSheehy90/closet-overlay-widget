@@ -1,0 +1,24 @@
+{
+  "id": "melinda-skin-hex-v3",
+  "version": "2026-09-01-chromatic-lights",
+  "blend": "multiply",
+  "note": "Skin in-game = multiply(hex, shading map) on BODY (+ bare side arm) only — never clothes/hair. Six chromatic light undertones (not near-white/gray) prepended; original 7 Melinda SKIN TONE BASE hexes kept unchanged. Light hexes may get a mild shade-map contrast boost so multiply still sculpts.",
+  "sourceSheet": "assets/creator/90b43c05-1dde-4b0c-9cd9-cbaff3960b5a.png",
+  "shadingMap": "skin-shade.png",
+  "lightContrastBoost": 1.22,
+  "hexes": [
+    { "id": "porcelain", "hex": "#E8C4BE", "label": "Porcelain", "undertone": "cool", "order": 0, "light": true },
+    { "id": "rosy", "hex": "#E9B5A6", "label": "Rosy", "undertone": "rosy", "order": 1, "light": true },
+    { "id": "golden", "hex": "#E8C48A", "label": "Golden", "undertone": "golden", "order": 2, "light": true },
+    { "id": "olive-light", "hex": "#CDB892", "label": "Olive light", "undertone": "olive", "order": 3, "light": true },
+    { "id": "ivory", "hex": "#EAD4C0", "label": "Ivory", "undertone": "neutral", "order": 4, "light": true },
+    { "id": "peach-pink", "hex": "#E8B496", "label": "Peach-pink", "undertone": "peach-pink", "order": 5, "light": true },
+    { "id": "skin-0", "hex": "#F8E6D6", "label": "Peach", "order": 6 },
+    { "id": "skin-1", "hex": "#EAC5A4", "label": "Sand", "order": 7 },
+    { "id": "skin-2", "hex": "#D7A987", "label": "Tan", "order": 8 },
+    { "id": "skin-3", "hex": "#BE8A66", "label": "Amber", "order": 9 },
+    { "id": "skin-4", "hex": "#A9714E", "label": "Cocoa", "order": 10 },
+    { "id": "skin-5", "hex": "#7A4F3A", "label": "Umber", "order": 11 },
+    { "id": "skin-6", "hex": "#4D3023", "label": "Espresso", "order": 12 }
+  ]
+}
