@@ -1,0 +1,417 @@
+{
+  "source": "src-bodies-clothes.png",
+  "source_size": [
+    1536,
+    1024
+  ],
+  "items": [
+    {
+      "name": "body-female-front",
+      "file": "body-female-front.png",
+      "size": [
+        239,
+        542
+      ],
+      "sheet_bbox": [
+        61,
+        12,
+        284,
+        538
+      ]
+    },
+    {
+      "name": "body-female-side",
+      "file": "body-female-side.png",
+      "size": [
+        112,
+        541
+      ],
+      "sheet_bbox": [
+        285,
+        12,
+        381,
+        537
+      ]
+    },
+    {
+      "name": "body-female-back",
+      "file": "body-female-back.png",
+      "size": [
+        246,
+        539
+      ],
+      "sheet_bbox": [
+        392,
+        12,
+        622,
+        535
+      ]
+    },
+    {
+      "name": "body-male-front",
+      "file": "body-male-front.png",
+      "size": [
+        239,
+        547
+      ],
+      "sheet_bbox": [
+        643,
+        8,
+        866,
+        539
+      ]
+    },
+    {
+      "name": "body-male-side",
+      "file": "body-male-side.png",
+      "size": [
+        115,
+        543
+      ],
+      "sheet_bbox": [
+        866,
+        9,
+        965,
+        536
+      ]
+    },
+    {
+      "name": "body-male-back",
+      "file": "body-male-back.png",
+      "size": [
+        240,
+        544
+      ],
+      "sheet_bbox": [
+        980,
+        8,
+        1204,
+        536
+      ]
+    },
+    {
+      "name": "outfit-female-front",
+      "file": "outfit-female-front.png",
+      "size": [
+        165,
+        448
+      ],
+      "sheet_bbox": [
+        100,
+        556,
+        249,
+        988
+      ]
+    },
+    {
+      "name": "outfit-female-side",
+      "file": "outfit-female-side.png",
+      "size": [
+        114,
+        449
+      ],
+      "sheet_bbox": [
+        272,
+        554,
+        370,
+        987
+      ]
+    },
+    {
+      "name": "outfit-female-back",
+      "file": "outfit-female-back.png",
+      "size": [
+        152,
+        450
+      ],
+      "sheet_bbox": [
+        438,
+        553,
+        574,
+        987
+      ]
+    },
+    {
+      "name": "outfit-male-front",
+      "file": "outfit-male-front.png",
+      "size": [
+        185,
+        455
+      ],
+      "sheet_bbox": [
+        675,
+        547,
+        844,
+        986
+      ]
+    },
+    {
+      "name": "outfit-male-side",
+      "file": "outfit-male-side.png",
+      "size": [
+        119,
+        451
+      ],
+      "sheet_bbox": [
+        861,
+        550,
+        964,
+        985
+      ]
+    },
+    {
+      "name": "outfit-male-back",
+      "file": "outfit-male-back.png",
+      "size": [
+        191,
+        452
+      ],
+      "sheet_bbox": [
+        1005,
+        550,
+        1180,
+        986
+      ]
+    },
+    {
+      "name": "top-bra-a",
+      "file": "top-bra-a.png",
+      "size": [
+        94,
+        99
+      ],
+      "sheet_bbox": [
+        1256,
+        361,
+        1334,
+        444
+      ]
+    },
+    {
+      "name": "top-bra-b",
+      "file": "top-bra-b.png",
+      "size": [
+        97,
+        105
+      ],
+      "sheet_bbox": [
+        1389,
+        361,
+        1470,
+        450
+      ]
+    },
+    {
+      "name": "top-shirt-a",
+      "file": "top-shirt-a.png",
+      "size": [
+        148,
+        129
+      ],
+      "sheet_bbox": [
+        1229,
+        462,
+        1361,
+        575
+      ]
+    },
+    {
+      "name": "top-shirt-b",
+      "file": "top-shirt-b.png",
+      "size": [
+        145,
+        129
+      ],
+      "sheet_bbox": [
+        1369,
+        461,
+        1498,
+        574
+      ]
+    },
+    {
+      "name": "pants-a",
+      "file": "pants-a.png",
+      "size": [
+        112,
+        158
+      ],
+      "sheet_bbox": [
+        1247,
+        581,
+        1343,
+        723
+      ]
+    },
+    {
+      "name": "pants-b",
+      "file": "pants-b.png",
+      "size": [
+        116,
+        158
+      ],
+      "sheet_bbox": [
+        1381,
+        581,
+        1481,
+        723
+      ]
+    },
+    {
+      "name": "pants-c",
+      "file": "pants-c.png",
+      "size": [
+        124,
+        191
+      ],
+      "sheet_bbox": [
+        1240,
+        732,
+        1348,
+        907
+      ]
+    },
+    {
+      "name": "pants-d",
+      "file": "pants-d.png",
+      "size": [
+        122,
+        191
+      ],
+      "sheet_bbox": [
+        1376,
+        732,
+        1482,
+        907
+      ]
+    },
+    {
+      "name": "boot-a",
+      "file": "boot-a.png",
+      "size": [
+        60,
+        91
+      ],
+      "sheet_bbox": [
+        1239,
+        917,
+        1283,
+        992
+      ]
+    },
+    {
+      "name": "boot-b",
+      "file": "boot-b.png",
+      "size": [
+        60,
+        91
+      ],
+      "sheet_bbox": [
+        1304,
+        917,
+        1348,
+        992
+      ]
+    },
+    {
+      "name": "boot-c",
+      "file": "boot-c.png",
+      "size": [
+        61,
+        93
+      ],
+      "sheet_bbox": [
+        1373,
+        915,
+        1418,
+        992
+      ]
+    },
+    {
+      "name": "boot-d",
+      "file": "boot-d.png",
+      "size": [
+        65,
+        93
+      ],
+      "sheet_bbox": [
+        1442,
+        915,
+        1491,
+        992
+      ]
+    },
+    {
+      "name": "rig-blue",
+      "file": "rig-blue.png",
+      "size": [
+        64,
+        309
+      ],
+      "sheet_bbox": [
+        1380,
+        55,
+        1428,
+        348
+      ]
+    },
+    {
+      "name": "rig-pink",
+      "file": "rig-pink.png",
+      "size": [
+        91,
+        347
+      ],
+      "sheet_bbox": [
+        1440,
+        17,
+        1515,
+        348
+      ]
+    }
+  ],
+  "liveBodies": "mannequin/",
+  "liveUnderwear": "mannequin/",
+  "liveSideArm": "mannequin/arm-{sex}-side.png",
+  "closetDir": "closet/",
+  "hairClassDir": "hair-class/",
+  "notes": "Live creator bodies/underwear/side-arm now load from mannequin/; closet outfits from closet/<id>/; class hair from hair-class/. Pack-root body-* and v2 body/underwear remain on disk but are not the live nude. Cargo outfits still v2/outfit-*.",
+  "expectedMannequin": [
+    "mannequin/body-female-front.png",
+    "mannequin/body-female-side.png",
+    "mannequin/body-female-back.png",
+    "mannequin/body-male-front.png",
+    "mannequin/body-male-side.png",
+    "mannequin/body-male-back.png",
+    "mannequin/underwear-female-front.png",
+    "mannequin/underwear-female-side.png",
+    "mannequin/underwear-female-back.png",
+    "mannequin/underwear-male-front.png",
+    "mannequin/underwear-male-side.png",
+    "mannequin/underwear-male-back.png",
+    "mannequin/arm-female-side.png",
+    "mannequin/arm-male-side.png"
+  ],
+  "expectedClosetIds": [
+    "coat",
+    "shirt",
+    "apron",
+    "fur-coat",
+    "service-vest",
+    "service-blazer",
+    "crew-vest",
+    "crew-coat",
+    "chef-waist-apron",
+    "chef-long-apron",
+    "tail",
+    "third-class",
+    "second-class",
+    "first-class"
+  ],
+  "expectedClassHair": [
+    "tail",
+    "third-class",
+    "second-class",
+    "first-class"
+  ]
+}

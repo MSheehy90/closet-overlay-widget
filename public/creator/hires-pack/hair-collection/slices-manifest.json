@@ -1,0 +1,1270 @@
+{
+  "source": "de48a87a50eaf3ea00c4bf1272cc4bbc18cd754f54c6bf248347e8203199e7c6.png",
+  "source_path": "/home/box/agent-data/agents/07dfa254-8085-433c-aac3-51f8bc22fc10/attachments/de48a87a50eaf3ea00c4bf1272cc4bbc18cd754f54c6bf248347e8203199e7c6.png",
+  "source_size": [
+    1448,
+    1086
+  ],
+  "studio_ref": [
+    166,
+    15,
+    95
+  ],
+  "studio_light": true,
+  "pad": 4,
+  "mode": "hair-collection-wrapframe",
+  "frame": "wrap",
+  "png_count": 48,
+  "failed": [],
+  "algorithm": "crop wrap_bbox from collection sheet; key MAGENTA studio + GREEN mannequin; keep gray/silver hair (crown + ponytail/braid); wrap-frame canvas = wrap rect + 4px pad (no tight crop, no labels)",
+  "items": [
+    {
+      "name": "hair-elegant-bob-female-front",
+      "file": "hair-elegant-bob-female-front.png",
+      "slug": "elegant-bob",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        103,
+        159
+      ],
+      "wrap_bbox": [
+        33,
+        126,
+        128,
+        277
+      ],
+      "wrap_area": 9602,
+      "hash": "28cab0f16f5f886dad339150e0d89d7958f00abbd3f6677c08a3c5066085ce0c",
+      "bytes": 6058,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1838,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-elegant-bob-female-side",
+      "file": "hair-elegant-bob-female-side.png",
+      "slug": "elegant-bob",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        76,
+        160
+      ],
+      "wrap_bbox": [
+        156,
+        126,
+        224,
+        278
+      ],
+      "wrap_area": 7626,
+      "hash": "d50557ffd1bf257787c63d9988447b63917b041078258fea27250f8f371d11b5",
+      "bytes": 8345,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3054,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-elegant-bob-female-back",
+      "file": "hair-elegant-bob-female-back.png",
+      "slug": "elegant-bob",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        105,
+        157
+      ],
+      "wrap_bbox": [
+        249,
+        128,
+        346,
+        277
+      ],
+      "wrap_area": 9558,
+      "hash": "23c75bde5f47505c675d59380636beaf2a2c7bc6bf2f11ec56e5eb66727e9cce",
+      "bytes": 8188,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3367,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-sleek-mid-length-female-front",
+      "file": "hair-sleek-mid-length-female-front.png",
+      "slug": "sleek-mid-length",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        107,
+        159
+      ],
+      "wrap_bbox": [
+        382,
+        127,
+        481,
+        278
+      ],
+      "wrap_area": 10103,
+      "hash": "1f5a797ebc953453e0d2a72d3057891e7c10c46bbd5056814a82cda7a6a05f3e",
+      "bytes": 7344,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2396,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-sleek-mid-length-female-side",
+      "file": "hair-sleek-mid-length-female-side.png",
+      "slug": "sleek-mid-length",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        83,
+        160
+      ],
+      "wrap_bbox": [
+        499,
+        126,
+        574,
+        278
+      ],
+      "wrap_area": 9258,
+      "hash": "f7ae024b0623c98c874d2302cc4ebf8ee5b8ba880a397cdc5d66a80cc75f58ec",
+      "bytes": 9974,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3425,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-sleek-mid-length-female-back",
+      "file": "hair-sleek-mid-length-female-back.png",
+      "slug": "sleek-mid-length",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        108,
+        160
+      ],
+      "wrap_bbox": [
+        597,
+        126,
+        697,
+        278
+      ],
+      "wrap_area": 10081,
+      "hash": "116e1f1e6501822eae9c4142bbe63c5e5a2f5d8a9d6103f7a10ce49225562178",
+      "bytes": 11391,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 5181,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-straight-female-front",
+      "file": "hair-long-straight-female-front.png",
+      "slug": "long-straight",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        108,
+        159
+      ],
+      "wrap_bbox": [
+        738,
+        127,
+        838,
+        278
+      ],
+      "wrap_area": 10244,
+      "hash": "09a739036e794c7d7208f3696bcd483860b960b70747cad6784bf2b08d813a1e",
+      "bytes": 11588,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4220,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-straight-female-side",
+      "file": "hair-long-straight-female-side.png",
+      "slug": "long-straight",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        81,
+        160
+      ],
+      "wrap_bbox": [
+        859,
+        126,
+        932,
+        278
+      ],
+      "wrap_area": 8950,
+      "hash": "0e369e49da960d2d31e71273098f7692a10a62e1af6ae39b5ae455b8f1256626",
+      "bytes": 12982,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4365,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-straight-female-back",
+      "file": "hair-long-straight-female-back.png",
+      "slug": "long-straight",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        109,
+        159
+      ],
+      "wrap_bbox": [
+        952,
+        127,
+        1053,
+        278
+      ],
+      "wrap_area": 10032,
+      "hash": "6f68e63c664a04a0f3c071e10bb45bb7d915f731055735bf9990995ff6886f2a",
+      "bytes": 14839,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 7274,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-soft-waves-female-front",
+      "file": "hair-soft-waves-female-front.png",
+      "slug": "soft-waves",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        114,
+        161
+      ],
+      "wrap_bbox": [
+        1089,
+        125,
+        1195,
+        278
+      ],
+      "wrap_area": 11531,
+      "hash": "5132a9a988460f4ddcc542317dcc7aae1e576f066b587f8a9098b6cc2d3589f1",
+      "bytes": 19052,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 5294,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-soft-waves-female-side",
+      "file": "hair-soft-waves-female-side.png",
+      "slug": "soft-waves",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        88,
+        161
+      ],
+      "wrap_bbox": [
+        1207,
+        125,
+        1287,
+        278
+      ],
+      "wrap_area": 9116,
+      "hash": "52eb8a06b41b47343534524fbadd76956e2cdfcefc182390737b0cc389726d52",
+      "bytes": 15577,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4727,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-soft-waves-female-back",
+      "file": "hair-soft-waves-female-back.png",
+      "slug": "soft-waves",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        112,
+        161
+      ],
+      "wrap_bbox": [
+        1307,
+        125,
+        1411,
+        278
+      ],
+      "wrap_area": 11427,
+      "hash": "2349ec46e4e4ef2fdb5a10a80411d590ff6cad50ecdfab33d64cbff5aca03e47",
+      "bytes": 26750,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 8922,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-high-ponytail-female-front",
+      "file": "hair-high-ponytail-female-front.png",
+      "slug": "high-ponytail",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        123,
+        243
+      ],
+      "wrap_bbox": [
+        23,
+        335,
+        138,
+        570
+      ],
+      "wrap_area": 17961,
+      "hash": "ff40aed9a7da81b38f5de2133a7808b94c628c167fe8dedae3a25ba1fa7fa4da",
+      "bytes": 9371,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2847,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-high-ponytail-female-side",
+      "file": "hair-high-ponytail-female-side.png",
+      "slug": "high-ponytail",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        90,
+        239
+      ],
+      "wrap_bbox": [
+        151,
+        338,
+        233,
+        569
+      ],
+      "wrap_area": 14207,
+      "hash": "873a1327e099de90e8b641a53191f96b4d2c8d526aace390fa66fcdbe29ddd6f",
+      "bytes": 12549,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4309,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-high-ponytail-female-back",
+      "file": "hair-high-ponytail-female-back.png",
+      "slug": "high-ponytail",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        119,
+        240
+      ],
+      "wrap_bbox": [
+        242,
+        337,
+        353,
+        569
+      ],
+      "wrap_area": 16910,
+      "hash": "66e2c14e6ffd04f244264811281c53f18eb376b2a606529d0c60ae5429f063ee",
+      "bytes": 13862,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 5386,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-braid-female-front",
+      "file": "hair-braid-female-front.png",
+      "slug": "braid",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        122,
+        234
+      ],
+      "wrap_bbox": [
+        376,
+        343,
+        490,
+        569
+      ],
+      "wrap_area": 17348,
+      "hash": "d1d178a5fe57f1fbd2ddd87517707b5cbc5dd69140a0d4e8b82e8dede0b09a26",
+      "bytes": 8127,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1972,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-braid-female-side",
+      "file": "hair-braid-female-side.png",
+      "slug": "braid",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        76,
+        235
+      ],
+      "wrap_bbox": [
+        503,
+        342,
+        571,
+        569
+      ],
+      "wrap_area": 11715,
+      "hash": "dfeabd48ba7501d1b3d06ea814bc58be510c672a8272e51e2542986152bc5e1c",
+      "bytes": 12102,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3319,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-braid-female-back",
+      "file": "hair-braid-female-back.png",
+      "slug": "braid",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        118,
+        238
+      ],
+      "wrap_bbox": [
+        592,
+        339,
+        702,
+        569
+      ],
+      "wrap_area": 17040,
+      "hash": "41ef4e0ebb1dce0e91ca02d2aec14844bde4a195677885ffb0dfc4b759e89ce8",
+      "bytes": 15380,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4325,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-bun-updo-female-front",
+      "file": "hair-bun-updo-female-front.png",
+      "slug": "bun-updo",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        119,
+        236
+      ],
+      "wrap_bbox": [
+        732,
+        341,
+        843,
+        569
+      ],
+      "wrap_area": 16488,
+      "hash": "13e31a005dc160ea2b25b47779a642d9508e68fcdce92ada4baf038e8f0637b6",
+      "bytes": 5435,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1352,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-bun-updo-female-side",
+      "file": "hair-bun-updo-female-side.png",
+      "slug": "bun-updo",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        86,
+        237
+      ],
+      "wrap_bbox": [
+        854,
+        340,
+        932,
+        569
+      ],
+      "wrap_area": 11948,
+      "hash": "bd25c38cfb77676def87e8abcedb4fbb1a0a5f571265899f6c8add69848fe3ef",
+      "bytes": 9251,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2714,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-bun-updo-female-back",
+      "file": "hair-bun-updo-female-back.png",
+      "slug": "bun-updo",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        118,
+        239
+      ],
+      "wrap_bbox": [
+        947,
+        338,
+        1057,
+        569
+      ],
+      "wrap_area": 16887,
+      "hash": "a8c5d37c1469561bd05c9d178f34aafdb3c54ae08fc3fe67f34beb147fca4349",
+      "bytes": 9125,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2708,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-textured-messy-female-front",
+      "file": "hair-textured-messy-female-front.png",
+      "slug": "textured-messy",
+      "sex": "female",
+      "view": "front",
+      "size": [
+        121,
+        237
+      ],
+      "wrap_bbox": [
+        1083,
+        340,
+        1196,
+        569
+      ],
+      "wrap_area": 17681,
+      "hash": "90a16e8de9b8e0580ccf65996f861d118eb9417cb83c407dcd32241001b76a05",
+      "bytes": 9288,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2469,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-textured-messy-female-side",
+      "file": "hair-textured-messy-female-side.png",
+      "slug": "textured-messy",
+      "sex": "female",
+      "view": "side",
+      "size": [
+        85,
+        237
+      ],
+      "wrap_bbox": [
+        1210,
+        340,
+        1287,
+        569
+      ],
+      "wrap_area": 12216,
+      "hash": "c0ec8ddef36fe4d217acfe9fb8569d4444510208e60551806d3bd8a6b785dbdb",
+      "bytes": 11432,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3340,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-textured-messy-female-back",
+      "file": "hair-textured-messy-female-back.png",
+      "slug": "textured-messy",
+      "sex": "female",
+      "view": "back",
+      "size": [
+        118,
+        237
+      ],
+      "wrap_bbox": [
+        1303,
+        339,
+        1413,
+        568
+      ],
+      "wrap_area": 17634,
+      "hash": "a4c1a4f1f52f1e3dd51e7535b31ee82295935933fb6535863f06bf7b270c6cb6",
+      "bytes": 14219,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4310,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-short-neat-male-front",
+      "file": "hair-short-neat-male-front.png",
+      "slug": "short-neat",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        96,
+        140
+      ],
+      "wrap_bbox": [
+        33,
+        664,
+        121,
+        796
+      ],
+      "wrap_area": 7211,
+      "hash": "a865e16dae6b0532706965ad7514de5630abb40819ae64aaa9b68c31731aa159",
+      "bytes": 3726,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 967,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-short-neat-male-side",
+      "file": "hair-short-neat-male-side.png",
+      "slug": "short-neat",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        79,
+        139
+      ],
+      "wrap_bbox": [
+        150,
+        664,
+        221,
+        795
+      ],
+      "wrap_area": 6932,
+      "hash": "121346fb8fc2aecd1f0e6abe4180c2d0855af2e2261fcf88be3436b4ee8afcca",
+      "bytes": 7294,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2104,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-short-neat-male-back",
+      "file": "hair-short-neat-male-back.png",
+      "slug": "short-neat",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        99,
+        141
+      ],
+      "wrap_bbox": [
+        253,
+        662,
+        344,
+        795
+      ],
+      "wrap_area": 7433,
+      "hash": "55bfa126af8686d23416b72c484c1c6b4bcb72c85d74b0bee907dad9c491adc9",
+      "bytes": 9919,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3100,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-side-part-male-front",
+      "file": "hair-side-part-male-front.png",
+      "slug": "side-part",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        94,
+        139
+      ],
+      "wrap_bbox": [
+        390,
+        664,
+        476,
+        795
+      ],
+      "wrap_area": 7231,
+      "hash": "bab3fba1e9c15712c32adb7ce0943515c7a0573b57a18ee3e6546508580c396a",
+      "bytes": 3824,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 987,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-side-part-male-side",
+      "file": "hair-side-part-male-side.png",
+      "slug": "side-part",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        78,
+        140
+      ],
+      "wrap_bbox": [
+        504,
+        663,
+        574,
+        795
+      ],
+      "wrap_area": 6974,
+      "hash": "c4bd5e6d8d84be6dc0e77b5aee2b7799697ca80c1f1bf590ee5079b219dfff50",
+      "bytes": 6621,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1990,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-side-part-male-back",
+      "file": "hair-side-part-male-back.png",
+      "slug": "side-part",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        97,
+        141
+      ],
+      "wrap_bbox": [
+        604,
+        662,
+        693,
+        795
+      ],
+      "wrap_area": 7390,
+      "hash": "55d5ab118a173f6b531a64d590b32d80d0c3291e8ec87c7365b6cb2682af7914",
+      "bytes": 9572,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3115,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-swept-back-male-front",
+      "file": "hair-swept-back-male-front.png",
+      "slug": "swept-back",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        97,
+        141
+      ],
+      "wrap_bbox": [
+        738,
+        662,
+        827,
+        795
+      ],
+      "wrap_area": 7505,
+      "hash": "14f99707f0ffbcd5572ffd3fbb9dd19df25b99fded729ca4c67752d154457585",
+      "bytes": 4249,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1126,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-swept-back-male-side",
+      "file": "hair-swept-back-male-side.png",
+      "slug": "swept-back",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        80,
+        141
+      ],
+      "wrap_bbox": [
+        857,
+        662,
+        929,
+        795
+      ],
+      "wrap_area": 7153,
+      "hash": "61e8d6279ee6a15ad895d3be1261817f0b1e6336c7c3b0b00a9d60236f280c3a",
+      "bytes": 7042,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2132,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-swept-back-male-back",
+      "file": "hair-swept-back-male-back.png",
+      "slug": "swept-back",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        100,
+        141
+      ],
+      "wrap_bbox": [
+        956,
+        662,
+        1048,
+        795
+      ],
+      "wrap_area": 7620,
+      "hash": "d3ffbcbe146b2b2828461f17b80cbc179a6af0fe373946c3fc8da79367a1e88f",
+      "bytes": 10087,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3188,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-medium-layered-male-front",
+      "file": "hair-medium-layered-male-front.png",
+      "slug": "medium-layered",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        97,
+        141
+      ],
+      "wrap_bbox": [
+        1092,
+        662,
+        1181,
+        795
+      ],
+      "wrap_area": 8381,
+      "hash": "17fec39336792b1187e5265447dc15082f025cda87a3613a1140a8eb264dea1c",
+      "bytes": 6336,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1740,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-medium-layered-male-side",
+      "file": "hair-medium-layered-male-side.png",
+      "slug": "medium-layered",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        85,
+        141
+      ],
+      "wrap_bbox": [
+        1207,
+        662,
+        1284,
+        795
+      ],
+      "wrap_area": 7766,
+      "hash": "2d373e5cf32bff03dbbbaacf0f57c1956fb28d71bc5456b4359021261f4906a2",
+      "bytes": 10079,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2998,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-medium-layered-male-back",
+      "file": "hair-medium-layered-male-back.png",
+      "slug": "medium-layered",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        100,
+        142
+      ],
+      "wrap_bbox": [
+        1311,
+        661,
+        1403,
+        795
+      ],
+      "wrap_area": 8446,
+      "hash": "9ba89ef4cd34add47593af90c80827aba06a46f5c686937db8ab4819d9639507",
+      "bytes": 13655,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4457,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-wavy-medium-male-front",
+      "file": "hair-wavy-medium-male-front.png",
+      "slug": "wavy-medium",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        100,
+        164
+      ],
+      "wrap_bbox": [
+        32,
+        862,
+        124,
+        1018
+      ],
+      "wrap_area": 10525,
+      "hash": "c2337529a4365d03397763b09a087c1d51493846c9011e30afda18e793b2bc9a",
+      "bytes": 7629,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2009,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-wavy-medium-male-side",
+      "file": "hair-wavy-medium-male-side.png",
+      "slug": "wavy-medium",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        87,
+        165
+      ],
+      "wrap_bbox": [
+        145,
+        861,
+        224,
+        1018
+      ],
+      "wrap_area": 9336,
+      "hash": "620a2b70c19e8accab5901413548e406f6e5563a14299600d554068fa1f9e5bb",
+      "bytes": 10179,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2902,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-wavy-medium-male-back",
+      "file": "hair-wavy-medium-male-back.png",
+      "slug": "wavy-medium",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        104,
+        165
+      ],
+      "wrap_bbox": [
+        250,
+        861,
+        346,
+        1018
+      ],
+      "wrap_area": 10375,
+      "hash": "6354c5c85f850e379bbd124139e0aea1f99a306346ca32694f48512c4b18a15a",
+      "bytes": 14383,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 4330,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-curly-textured-male-front",
+      "file": "hair-curly-textured-male-front.png",
+      "slug": "curly-textured",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        100,
+        163
+      ],
+      "wrap_bbox": [
+        384,
+        862,
+        476,
+        1017
+      ],
+      "wrap_area": 9906,
+      "hash": "2cda8063b881f5b1ad20710de3db68e1438ec8b34519855526d63efc30922493",
+      "bytes": 6324,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1555,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-curly-textured-male-side",
+      "file": "hair-curly-textured-male-side.png",
+      "slug": "curly-textured",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        85,
+        164
+      ],
+      "wrap_bbox": [
+        498,
+        861,
+        575,
+        1017
+      ],
+      "wrap_area": 9044,
+      "hash": "1304fc1c470ef75efb79220ba652f28a44f7558072bddf617e44579098fb6fdb",
+      "bytes": 9214,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2468,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-curly-textured-male-back",
+      "file": "hair-curly-textured-male-back.png",
+      "slug": "curly-textured",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        100,
+        164
+      ],
+      "wrap_bbox": [
+        602,
+        861,
+        694,
+        1017
+      ],
+      "wrap_area": 9819,
+      "hash": "d85ebf542100c35936ecde4421c6c6348c5fce4bad55bd54e2907a48a5dd53bb",
+      "bytes": 11818,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3451,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-undercut-fade-male-front",
+      "file": "hair-undercut-fade-male-front.png",
+      "slug": "undercut-fade",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        99,
+        163
+      ],
+      "wrap_bbox": [
+        737,
+        862,
+        828,
+        1017
+      ],
+      "wrap_area": 9428,
+      "hash": "5664e634989ba26e6ed624b683b9aec6ce54e482b44c62875a125c36fca58519",
+      "bytes": 4108,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1027,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-undercut-fade-male-side",
+      "file": "hair-undercut-fade-male-side.png",
+      "slug": "undercut-fade",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        83,
+        163
+      ],
+      "wrap_bbox": [
+        857,
+        862,
+        932,
+        1017
+      ],
+      "wrap_area": 8606,
+      "hash": "e6f076e543ad5c04bf1b2e4c57625f14fd8566ee5472be6b0863a993bf4fb4e2",
+      "bytes": 5223,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 1586,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-undercut-fade-male-back",
+      "file": "hair-undercut-fade-male-back.png",
+      "slug": "undercut-fade",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        104,
+        163
+      ],
+      "wrap_bbox": [
+        954,
+        862,
+        1050,
+        1017
+      ],
+      "wrap_area": 9636,
+      "hash": "65650b6242ca759e744dc8e8a910d5d8e661dfb31491ef36f98a1fc72f7a77b5",
+      "bytes": 8246,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2570,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-rugged-male-front",
+      "file": "hair-long-rugged-male-front.png",
+      "slug": "long-rugged",
+      "sex": "male",
+      "view": "front",
+      "size": [
+        103,
+        164
+      ],
+      "wrap_bbox": [
+        1091,
+        861,
+        1186,
+        1017
+      ],
+      "wrap_area": 11523,
+      "hash": "11300054baa12ce6ce2328d6a361d34cf90963e82cea62cede00576fb4f4774e",
+      "bytes": 9064,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 2386,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-rugged-male-side",
+      "file": "hair-long-rugged-male-side.png",
+      "slug": "long-rugged",
+      "sex": "male",
+      "view": "side",
+      "size": [
+        88,
+        164
+      ],
+      "wrap_bbox": [
+        1206,
+        861,
+        1286,
+        1017
+      ],
+      "wrap_area": 9612,
+      "hash": "5ff2206dac2f2650229689c8dcf2ba0adac365f6662c190a37353b1be3035d14",
+      "bytes": 11075,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 3298,
+      "frame": "wrap",
+      "pad": 4
+    },
+    {
+      "name": "hair-long-rugged-male-back",
+      "file": "hair-long-rugged-male-back.png",
+      "slug": "long-rugged",
+      "sex": "male",
+      "view": "back",
+      "size": [
+        103,
+        165
+      ],
+      "wrap_bbox": [
+        1310,
+        860,
+        1405,
+        1017
+      ],
+      "wrap_area": 11135,
+      "hash": "30c76641857591df0e3d82f05fafeda78d2bca8a91d8eb7bda03c239a2ea297c",
+      "bytes": 16485,
+      "qc": [],
+      "leftover_green": 0,
+      "leftover_magenta": 0,
+      "opaque": 5423,
+      "frame": "wrap",
+      "pad": 4
+    }
+  ]
+}
